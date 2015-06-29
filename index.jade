@@ -58,12 +58,15 @@ html(lang="en")
           .desc 
             | Journalists, Bloggers, Videographers, Graphic Artists, Interactive Designers. Learn to tell more powerful stories with new new tools. Learn to use data to create localised / personalised content.
     #land-speakers
-      each vars in [1,2,3,4,5]
-        .land-speaker
-          .avatar(style="background-image:url(img/speaker/slime.jpg)")
-          .name Declan Okpalaeke
-          .title Fellow
-          .inst Knight International Journalism
+      h2 Session Leaders
+      .container
+        each it in speaker
+          .land-speaker
+            .avatar(style="background-image:url(img/speaker/"+it.id+".jpg)")
+            .name= it.name
+            .title= it.title
+            .inst= it.inst
+
     #land-partners.container
       .row
         .col-md-4

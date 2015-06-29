@@ -245,7 +245,6 @@ update-file = ->
   src = if it.0 != \/ => path.join(cwd,it) else it
   src = src.replace path.join(cwd,\/), ""
   [type,cmd,des] = [ftype(src), "",""]
-
   if type == \other => return
   if type == \ls =>
     if /src\/ls/.exec src =>
@@ -260,6 +259,7 @@ update-file = ->
         console.log e.message
       return
     else =>
+      if /data.ls$/.exec src => return
       des = src.replace /\.ls$/, ".js"
       try
         mkdir-recurse path.dirname(des)
@@ -305,10 +305,11 @@ update-file = ->
 
   if type == \jade => 
     des = src.replace /\.jade$/, ".html"
+    data = eval(lsc.compile(fs.read-file-sync(\data.ls)toString!,{bare:true}))
     try 
       desdir = path.dirname(des)
       if !fs.exists-sync(desdir) or !fs.stat-sync(desdir).is-directory! => mkdir-recurse desdir
-      fs.write-file-sync des, jade.render (fs.read-file-sync src .toString!),{filename: src, basedir: path.join(cwd)}
+      fs.write-file-sync des, jade.render (fs.read-file-sync src .toString!),{filename: src, basedir: path.join(cwd)} <<< data
       console.log "[BUILD] #src --> #des"
     catch
       console.log "[BUILD] #src failed: "

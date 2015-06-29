@@ -32,6 +32,15 @@ nav.navbar.navbar-default .navbar-nav li.active a {
   font-weight: bold;
   background: none;
 }
+nav.navbar.navbar-default {
+  background: rgba(0,0,0,0.2);
+  border-bottom: 1px solid rgba(0,0,0,0.4);
+  -ms-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
 nav.navbar.navbar-default .container {
   padding: 0;
   margin: auto;
@@ -45,6 +54,7 @@ nav.navbar.navbar-default .navbar-nav a {
   -webkit-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+  color: #fff;
 }
 nav.navbar.navbar-default img {
   height: 40px;
@@ -54,10 +64,16 @@ nav.navbar.navbar-default img {
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
+nav.navbar.navbar-default.zoom {
+  background: rgba(255,255,255,0.91);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  border-bottom: 1px solid #ddd;
+}
 nav.navbar.navbar-default.zoom .navbar-brand a,
 nav.navbar.navbar-default.zoom .navbar-nav a {
   height: 50px;
   line-height: 20px;
+  color: #404042;
 }
 nav.navbar.navbar-default.zoom img {
   height: 20px;
@@ -145,12 +161,18 @@ nav.navbar.navbar-default.zoom img {
   padding: 20px 10px;
   text-align: center;
 }
+#land-speakers h2 {
+  color: #fff;
+  font-weight: normal;
+  margin: 40px auto 30px;
+}
 .land-speaker {
   width: 200px;
-  margin: 20px 40px;
+  margin: 25px 50px;
   text-align: center;
   display: inline-block;
   color: #fff;
+  vertical-align: top;
 }
 .land-speaker .avatar {
   width: 190px;
