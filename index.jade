@@ -16,3 +16,67 @@ html(lang="en")
     link(rel="stylesheet",type="text/css",href="index.css")
     script(type="text/javascript",src="index.js")
   body
+    nav.navbar.navbar-default.navbar-fixed-top
+      .container-fluid
+        .navbar-header
+          a.navbar-brand(href="#") Brand
+        .collapse.navbar-collapse.pull-right
+          ul.nav.navbar-nav
+            li.active: a(href="#") Registration
+            li: a(href="#") DataSci.tw
+            li: a(href="#") About dBootCamp
+    #land-cover
+      #land-cover-text
+        h1 d|Bootcamp@Taipei
+        h3 Sinica, Taipei, Aug 21 2015
+
+    #land-intro.container
+      p Lorem ipsum dolor sit amet, sed ea amet nisl, etiam accommodare vel ne. Pro ut congue dicunt tibique. Minim debitis sadipscing in has, per assum laudem vituperatoribus id. Oporteat phaedrum ne quo. Movet efficiendi est at, eu persius laoreet forensibus mei. Eos te clita moderatius, amet porro antiopam at mea.
+
+      p At vim zril disputando, nam no simul feugait vituperatoribus. Ea modo complectitur eam, nominati repudiandae ad mei. Vim oblique liberavisse in. Probo eripuit incorrupte pro ea, nullam probatus deterruisset id mel.
+
+      p Ex natum graecis eos. Sea te doctus alterum, ea suas theophrastus sea, usu cu fugit definiebas. Cu munere dolores aliquando ius, clita sadipscing quo an. Cu quo malorum detracto, usu dicunt facilis ne, id quo sententiae consequuntur. Vel habeo tempor consequat cu, per ex idque verear imperdiet.
+
+      p Doctus meliore tractatos at his, ne omnium menandri sed. Duo sumo liber invidunt ei, idque lorem ea eum, quas recteque et vim. At duo efficiantur conclusionemque, qui fugit omnium ut. Wisi melius habemus sea ea. Affert equidem eam te.
+
+    #land-keys: #land-keys-inner.container
+      .row
+        .col-sm-4.land-key
+          i.glyphicon.glyphicon-qrcode
+          .title Hacks (Journalists) & Bloggers
+          .desc
+            | Journalists, Bloggers, Videographers, Graphic Artists, Interactive Designers. Learn to tell more powerful stories with new new tools. Learn to use data to create localised / personalised content.
+        .col-sm-4.land-key
+          i.glyphicon.glyphicon-qrcode
+          .title Hackers & Makers
+          .desc
+            | Journalists, Bloggers, Videographers, Graphic Artists, Interactive Designers. Learn to tell more powerful stories with new new tools. Learn to use data to create localised / personalised content.
+        .col-sm-4.land-key
+          i.glyphicon.glyphicon-qrcode
+          .title Hackers & Makers
+          .desc 
+            | Journalists, Bloggers, Videographers, Graphic Artists, Interactive Designers. Learn to tell more powerful stories with new new tools. Learn to use data to create localised / personalised content.
+    #land-speakers
+      each vars in [1,2,3,4,5]
+        .land-speaker
+          .avatar(style="background-image:url(img/speaker/slime.jpg)")
+          .name Declan Okpalaeke
+          .title Fellow
+          .inst Knight International Journalism
+    #land-partners.container
+      .row
+        .col-md-4
+          h3 Partners
+          p This Taipei d|Bootcamp has been made possible through support from the following partners:
+        .col-md-8
+          img(src="img/partner/g0v.jpg")
+    #land-mission: .container.text-center
+      h3 Our Mission
+      p To boost analytical, evidence-based public discussion by giving citizens, journalists and civil society access to the data, digital tools, and computational skills necessary for transforming our societies into digital democracies.
+      hr
+      .frame: img(src="img/partner/worldbank-group.jpg")
+      br
+    #footer: #footer-inner.container
+      .pull-right FB
+      span Taipei d|Bootcamp
+   
