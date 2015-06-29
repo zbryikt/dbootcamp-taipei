@@ -1,0 +1,1 @@
+window.addEventListener("scroll",function(){var o;return o=$(window).scrollTop(),60>o?$("#nav-top").removeClass("zoom"):$("#nav-top").addClass("zoom")});

@@ -13,31 +13,32 @@ html(lang="en")
     // libraries
     include library.jade
     // custom files
+    link(rel="stylesheet",type="text/css",href="//fonts.googleapis.com/css?family=Open+Sans")
     link(rel="stylesheet",type="text/css",href="index.css")
     script(type="text/javascript",src="index.js")
   body
-    nav.navbar.navbar-default.navbar-fixed-top
-      .container-fluid
-        .navbar-header
-          a.navbar-brand(href="#") Brand
-        .collapse.navbar-collapse.pull-right
-          ul.nav.navbar-nav
-            li.active: a(href="#") Registration
-            li: a(href="#") DataSci.tw
-            li: a(href="#") About dBootCamp
+    include nav.jade
     #land-cover
       #land-cover-text
         h1 d|Bootcamp@Taipei
         h3 Sinica, Taipei, Aug 21 2015
 
     #land-intro.container
-      p Lorem ipsum dolor sit amet, sed ea amet nisl, etiam accommodare vel ne. Pro ut congue dicunt tibique. Minim debitis sadipscing in has, per assum laudem vituperatoribus id. Oporteat phaedrum ne quo. Movet efficiendi est at, eu persius laoreet forensibus mei. Eos te clita moderatius, amet porro antiopam at mea.
+      .row
+        .col-md-4
+           #land-intro-city Taipei, Taiwan
+           #land-intro-date Aug 21, 2015
+           br
+           #land-intro-btn.btn.btn-default.btn-lg Sessions
 
-      p At vim zril disputando, nam no simul feugait vituperatoribus. Ea modo complectitur eam, nominati repudiandae ad mei. Vim oblique liberavisse in. Probo eripuit incorrupte pro ea, nullam probatus deterruisset id mel.
+        .col-md-8
+          p Lorem ipsum dolor sit amet, sed ea amet nisl, etiam accommodare vel ne. Pro ut congue dicunt tibique. Minim debitis sadipscing in has, per assum laudem vituperatoribus id. Oporteat phaedrum ne quo. Movet efficiendi est at, eu persius laoreet forensibus mei. Eos te clita moderatius, amet porro antiopam at mea.
 
-      p Ex natum graecis eos. Sea te doctus alterum, ea suas theophrastus sea, usu cu fugit definiebas. Cu munere dolores aliquando ius, clita sadipscing quo an. Cu quo malorum detracto, usu dicunt facilis ne, id quo sententiae consequuntur. Vel habeo tempor consequat cu, per ex idque verear imperdiet.
+          p At vim zril disputando, nam no simul feugait vituperatoribus. Ea modo complectitur eam, nominati repudiandae ad mei. Vim oblique liberavisse in. Probo eripuit incorrupte pro ea, nullam probatus deterruisset id mel.
 
-      p Doctus meliore tractatos at his, ne omnium menandri sed. Duo sumo liber invidunt ei, idque lorem ea eum, quas recteque et vim. At duo efficiantur conclusionemque, qui fugit omnium ut. Wisi melius habemus sea ea. Affert equidem eam te.
+          p Ex natum graecis eos. Sea te doctus alterum, ea suas theophrastus sea, usu cu fugit definiebas. Cu munere dolores aliquando ius, clita sadipscing quo an. Cu quo malorum detracto, usu dicunt facilis ne, id quo sententiae consequuntur. Vel habeo tempor consequat cu, per ex idque verear imperdiet.
+
+          p Doctus meliore tractatos at his, ne omnium menandri sed. Duo sumo liber invidunt ei, idque lorem ea eum, quas recteque et vim. At duo efficiantur conclusionemque, qui fugit omnium ut. Wisi melius habemus sea ea. Affert equidem eam te.
 
     #land-keys: #land-keys-inner.container
       .row

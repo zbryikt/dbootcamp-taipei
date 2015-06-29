@@ -7,7 +7,46 @@ html,body
   margin: 0
   padding: 0
   line-height: 1.5em
-  font-size: 1.05em
+  font-size: 14px
+  font-family: 'Open Sans', Arial, sans-serif
+  -webkit-font-smoothing: antialiased
+
+h1,h2,h3,h4,h5,h6
+  font-weight: 900
+  font-family: 'Open Sans', Arial, sans-serif
+
+a
+  color: #0873bb
+
+nav.navbar.navbar-default .navbar-nav
+  a
+    color: #404042
+    &:hover
+      color: #0873bb
+  li.active a
+    color: #0873bb
+    font-weight: bold
+    background: none
+
+nav.navbar.navbar-default 
+  .container
+    padding: 0
+    margin: auto
+  .navbar-brand a, .navbar-nav a
+      height: 70px
+      line-height: 40px
+      transition(all 0.3s ease-in-out)
+  img
+    height: 40px
+    transition(all 0.3s ease-in-out)
+
+nav.navbar.navbar-default.zoom
+  .navbar-brand a, .navbar-nav a
+      height: 50px
+      line-height: 20px
+  img
+    height: 20px
+
 
 .frame
   background: #fff
@@ -15,6 +54,7 @@ html,body
   padding: 20px
   display: inline-block
   margin: 10px
+
 .container
   width: 80%
   margin: 40px auto
@@ -22,23 +62,41 @@ html,body
 
 #land-cover
   width: 100%
-  height: 100%
+  height: 80%
   background: url(img/cover.jpg) center center no-repeat #22151f
   background-size: cover
 
 #land-cover-text
   position: absolute
-  top: 50%
-  margin-top: -40px
+  top: 40%
+  margin-top: -60px
   left: 0
   width: 100%
   text-align: center
   color: #fff
   font-weight: bold
   h1
-    font-size: 2.5em
+    font-size: 4em
+    text-shadow: 0 2px 5px rgba(0,0,0,0.9)
   h3
-    font-size: 1.2em
+    font-size: 1.6em
+    text-shadow: 0 2px 5px rgba(0,0,0,0.9)
+
+#land-intro-city, #land-intro-date
+  color: #333
+  font-size: 2.2em
+  line-height: 1.5em
+#land-intro-date
+  font-size: 1.8em
+#land-intro-btn
+  border: 2px solid #d94328
+  color: #d94328
+  padding: 15px 25px
+  transition(all 0.2s ease-out)
+  &:hover
+    color: #fff
+    background: #d94328
+
 
 #land-keys
   background: #f4502a
