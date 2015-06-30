@@ -37,6 +37,10 @@ base.data = do
     sessions: zh: "議程表", en: "Sessions"
     land-speakers: zh: "講師陣容", en: "Session Speakers"
     land-partners: zh: "合作夥伴", en: "Partners"
+    heading:
+      agenda: zh: "議程表", en: "Agenda"
+      speakers: zh: "講師介紹", en: "Speakers"
+
     agenda:
       time: zh: \時間, en: \Time
       speaker: zh: \講者, en: \Speaker
@@ -134,9 +138,17 @@ infographics.tw 成立於 2014 年，專注於提工中文推廣資料視覺化�
 政府發起或參與「新聞小幫手」、「求職小幫手」、「台灣公司
 資料」、「開放政治獻金」... 等專案"""
 
-    * id: "default"
+    * id: "silva"
       en: name: "Silva Shih", title: "Not Given",  inst: "To Be Provided"
       zh: name: "史書華", title: "Not Given",  inst: "To Be Provided"
+
+  staff:
+    * id: "clkao"
+      en: name: "Chia-liang Kao", title: "",  inst: ""
+      zh: name: "高嘉良", title: "",  inst: ""
+    * id: "TBD"
+      en: name: "TBD", title: "",  inst: ""
+      zh: name: "未定", title: "",  inst: ""
 
   features:
     * id: "global"
@@ -170,6 +182,7 @@ infographics.tw 成立於 2014 年，專注於提工中文推廣資料視覺化�
       topic: en: "Keynote", zh: "Keynote"
 
     * time: "09:50 - 10:30"
+      speaker: \#TBD
       topic: en: "intl DJ Story", zh: "intl DJ Story"
 
     * time: "10:30 - 11:00"
