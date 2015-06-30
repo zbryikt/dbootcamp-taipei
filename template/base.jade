@@ -21,7 +21,20 @@ html(lang="en")
   body(id=rootid)
     include nav.jade
     block content
+    #land-mission: .container.text-center
+      h3 Our Mission
+      p: i To boost analytical, evidence-based public discussion by giving citizens, journalists and civil society access to the data, digital tools, and computational skills necessary for transforming our societies into digital democracies.
+      br
+    #base-sponsors.container
+      .row
+        .col-md-4.text-center
+          img(src="/img/sponsor/worldbank-group.jpg")
+        .col-md-4.text-center
+          img(src="/img/partner/c4a.png")
+        .col-md-4.text-center
+          img(src="/img/sponsor/icfj.jpg")
+
     #footer: .container
-      .pull-right FB
-      span Taipei d|Bootcamp
+      .pull-right
+      span d|Bootcamp Taipei
    

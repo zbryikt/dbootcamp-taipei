@@ -113,7 +113,7 @@ nav.navbar.navbar-default.zoom img,
 }
 @media (max-width: 480px) {
   .container {
-    width: 98%;
+    width: 95%;
     margin: 20px auto;
     padding: 5px;
   }
@@ -145,6 +145,22 @@ nav.navbar.navbar-default.zoom img,
   font-size: 1.6em;
   text-shadow: 0 2px 5px rgba(0,0,0,0.9);
 }
+@media (max-width: 768px) {
+  #land-cover-text h1 {
+    font-size: 3em;
+  }
+  #land-cover-text h3 {
+    font-size: 1.7em;
+  }
+}
+@media (max-width: 480px) {
+  #land-cover-text h1 {
+    font-size: 2em;
+  }
+  #land-cover-text h3 {
+    font-size: 1.4em;
+  }
+}
 #land-intro-city,
 #land-intro-date {
   color: #333;
@@ -169,21 +185,23 @@ nav.navbar.navbar-default.zoom img,
   background: #d94328;
 }
 #land-keys {
-  background: #f4502a;
+  background: #d64329;
   padding: 20px;
 }
 .land-key {
   text-align: center;
   color: #fff;
+  margin-bottom: 30px;
 }
 .land-key img {
   width: 50%;
-  margin: 0 auto 10px;
+  margin: 0 auto 5px;
+  max-width: 200px;
 }
 .land-key .title {
   font-size: 1.2em;
   font-weight: bold;
-  margin: 10px;
+  margin: 5px;
 }
 .land-key .desc {
   font-size: 0.9em;
@@ -192,7 +210,7 @@ nav.navbar.navbar-default.zoom img,
   font-size: 8em;
 }
 #land-speakers {
-  background: #0064a8;
+  background: #086daf;
   padding: 20px 10px;
   text-align: center;
 }
@@ -225,7 +243,7 @@ nav.navbar.navbar-default.zoom img,
   margin: 5px 0;
 }
 #land-mission {
-  background: #f1c227;
+  background: #efc152;
   padding: 1px;
 }
 #footer {
@@ -233,12 +251,31 @@ nav.navbar.navbar-default.zoom img,
   padding: 10px;
   color: #909096;
 }
+#footer .container {
+  margin: 10px;
+}
 .section-heading {
-  background: #f1c227;
+  background: #efc152;
   padding: 1px;
   color: #fff;
   font-size: 2.1em;
   margin-top: 71px;
+}
+#land-partners img {
+  max-height: 120px;
+  margin: 20px;
+}
+@media (max-width: 480px) {
+  #land-partners img {
+    max-width: 100%;
+    margin: 10px auto;
+    display: block;
+  }
+}
+#base-sponsors img {
+  max-height: 80px;
+  max-width: 100%;
+  margin: 20px;
 }
 #agenda {
   width: 100%;

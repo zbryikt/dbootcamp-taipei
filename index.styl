@@ -81,7 +81,7 @@ nav.navbar.navbar-default.zoom,
     margin: 30px auto
     padding: 10px
   @media (max-width: 480px)
-    width: 98%
+    width: 95%
     margin: 20px auto
     padding: 5px
 
@@ -109,6 +109,16 @@ nav.navbar.navbar-default.zoom,
   h3
     font-size: 1.6em
     text-shadow: 0 2px 5px rgba(0,0,0,0.9)
+  @media (max-width: 768px)
+    h1
+      font-size: 3em
+    h3
+      font-size: 1.7em
+  @media (max-width: 480px)
+    h1
+      font-size: 2em
+    h3
+      font-size: 1.4em
 
 #land-intro-city, #land-intro-date
   color: #333
@@ -127,26 +137,28 @@ nav.navbar.navbar-default.zoom,
 
 
 #land-keys
-  background: #f4502a
+  background: #d64329
   padding: 20px
 
 .land-key
   text-align: center
   color: #fff
+  margin-bottom: 30px
   img
     width: 50%
-    margin: 0 auto 10px
+    margin: 0 auto 5px
+    max-width: 200px
   .title
     font-size: 1.2em
     font-weight: bold
-    margin: 10px
+    margin: 5px
   .desc
     font-size: 0.9em
   i.glyphicon
     font-size: 8em
 
 #land-speakers
-  background: #0064a8
+  background: #086daf
   padding: 20px 10px
   text-align: center
   h2
@@ -176,20 +188,36 @@ nav.navbar.navbar-default.zoom,
     margin: 5px 0
 
 #land-mission
-  background: #f1c227
+  background: #efc152
   padding: 1px
 
 #footer
   background: #404042
   padding: 10px
   color: #909096
+  .container
+    margin: 10px
 
 .section-heading
-  background: #f1c227
+  background: #efc152
   padding: 1px
   color: #fff
   font-size: 2.1em
   margin-top: 71px
 
+#land-partners
+  img
+    max-height: 120px
+    margin: 20px
+    @media (max-width: 480px)
+      max-width: 100%
+      margin: 10px auto
+      display: block
+
+#base-sponsors
+  img
+    max-height: 80px
+    max-width: 100%
+    margin: 20px
 @import 'styl/agenda'
 @import 'styl/speakers'
