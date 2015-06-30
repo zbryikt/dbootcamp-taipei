@@ -1,0 +1,26 @@
+extends base.jade
+block content
+  .section-heading: .container Agenda
+  .container
+    table#agenda.table.table-bordered.text-center
+      tr
+        th.text-center= aux.agenda.time
+        th.text-center= aux.agenda.speaker
+        th.text-center= aux.agenda.topic
+      each slot in agenda
+        if !slot.speaker
+          - trclass = "break"
+        else
+          - trclass = ""
+        tr(class=trclass)
+          td= slot.time
+          if slot.speaker && slot.speaker.length
+            td 
+              each speaker in slot.speaker
+                span= speaker.name
+          else if slot.speaker
+            td= slot.speaker.name
+          if !slot.speaker
+            td.text-center(colspan="2")= slot.topic
+          else
+            td= slot.topic

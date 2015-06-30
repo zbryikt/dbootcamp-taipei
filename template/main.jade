@@ -1,0 +1,48 @@
+extends base
+block vars
+  - var rootid = "landing"
+block content
+  #land-cover
+    #land-cover-text
+      h1 d|Bootcamp@Taipei
+      h3 Sinica, Taipei, Aug 21 2015
+
+  #land-intro.container
+    .row
+      .col-md-4
+         #land-intro-city Taipei, Taiwan
+         #land-intro-date Aug 21, 2015
+         br
+         a#land-intro-btn.btn.btn-default.btn-lg(href="agenda/")= aux.sessions
+      .col-md-8
+        block land-intro
+  #land-keys: #land-keys-inner.container
+    .row
+      each feature in features
+        .col-sm-4.land-key
+          img(src="/img/feature/"+feature.id+".png")
+          .title= feature.title
+          .desc= feature.desc
+
+  #land-speakers
+    h2= aux.landSpeakers
+    .container
+      each it in speakers
+        .land-speaker
+          .avatar(style="background-image:url(/img/speaker/"+it.id+".jpg)")
+          .name= it.name
+          .title= it.title
+          .inst= it.inst
+
+  #land-partners.container
+    .row
+      .col-md-4
+        block land-partners
+      .col-md-8
+        img(src="/img/partner/g0v.jpg")
+  #land-mission: .container.text-center
+    block land-mission
+    hr
+    .frame: img(src="/img/partner/worldbank-group.jpg")
+    br
+

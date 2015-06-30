@@ -305,6 +305,7 @@ update-file = ->
         console.log e.message
 
   if type == \jade => 
+    if /template\/[^.]+\.jade/.exec src => return
     des = src.replace /\.jade$/, ".html"
     data = reload "./#{path.dirname(src)}/data.ls"
     try 

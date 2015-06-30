@@ -1,0 +1,21 @@
+extends base.jade
+block content
+  .section-heading: .container Speakers
+  .container
+    each it in speakers
+      .speaker.row
+        .col-sm-4.text-center
+          .avatar(style="background-image:url(/img/speaker/"+it.id+".jpg)")
+        .col-sm-8
+          .brief
+            .name= it.name
+            if locale == 'zh'
+              .inst= it.inst
+              |  
+              .title= it.title
+            else
+              .title= it.title
+              | , 
+              .inst= it.inst
+          .desc= it.desc
+        .clearfix

@@ -1,0 +1,10 @@
+#agenda {
+  width: 100%;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+}
+#agenda tr.break {
+  background: #f9f9f9;
+}
+#agenda td span {
+  margin-right: 10px;
+}

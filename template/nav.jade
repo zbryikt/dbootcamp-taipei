@@ -1,0 +1,13 @@
+nav#nav-top.navbar.navbar-default.navbar-fixed-top
+  .container
+    .navbar-header
+      a.navbar-brand(href="/")
+        img(src="/img/dbootcamp-logo.png")
+    .collapse.navbar-collapse.pull-right
+      ul.nav.navbar-nav
+        each item in navbar
+          li: a(href=item.link)= item.name
+        if locale == 'en'
+          li: a(href="/zh/") 中文
+        else
+          li: a(href="/en/") English
