@@ -286,6 +286,14 @@ nav.navbar.navbar-default.zoom img,
   max-width: 100%;
   margin: 20px;
 }
+.label-en,
+.label-zh {
+  margin-right: 5px;
+  background: #d5442a;
+}
+.label-zh {
+  background: #086aaa;
+}
 #agenda {
   width: 100%;
   box-shadow: 0 1px 2px rgba(0,0,0,0.1);

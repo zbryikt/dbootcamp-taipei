@@ -21,6 +21,12 @@ block content
           else if slot.speaker
             td= slot.speaker.name
           if !slot.speaker
-            td.text-center(colspan="2")= slot.topic
+            td.text-center(colspan="2")
+              span= slot.topic
+              span= slot.lang
           else
-            td= slot.topic
+            td
+              span= slot.topic
+              if slot.lang
+                each lc in slot.lang
+                  .label.label-danger.pull-right(class="label-"+lc)= lc
