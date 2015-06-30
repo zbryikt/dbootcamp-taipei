@@ -14,8 +14,8 @@ html(lang="en")
     include library.jade
     // custom files
     link(rel="stylesheet",type="text/css",href="//fonts.googleapis.com/css?family=Open+Sans")
-    link(rel="stylesheet",type="text/css",href="index.css")
-    script(type="text/javascript",src="index.js")
+    link(rel="stylesheet",type="text/css",href="/index.css")
+    script(type="text/javascript",src="/index.js")
   body
     include nav.jade
     #land-cover
@@ -30,16 +30,8 @@ html(lang="en")
            #land-intro-date Aug 21, 2015
            br
            #land-intro-btn.btn.btn-default.btn-lg Sessions
-
         .col-md-8
-          p Lorem ipsum dolor sit amet, sed ea amet nisl, etiam accommodare vel ne. Pro ut congue dicunt tibique. Minim debitis sadipscing in has, per assum laudem vituperatoribus id. Oporteat phaedrum ne quo. Movet efficiendi est at, eu persius laoreet forensibus mei. Eos te clita moderatius, amet porro antiopam at mea.
-
-          p At vim zril disputando, nam no simul feugait vituperatoribus. Ea modo complectitur eam, nominati repudiandae ad mei. Vim oblique liberavisse in. Probo eripuit incorrupte pro ea, nullam probatus deterruisset id mel.
-
-          p Ex natum graecis eos. Sea te doctus alterum, ea suas theophrastus sea, usu cu fugit definiebas. Cu munere dolores aliquando ius, clita sadipscing quo an. Cu quo malorum detracto, usu dicunt facilis ne, id quo sententiae consequuntur. Vel habeo tempor consequat cu, per ex idque verear imperdiet.
-
-          p Doctus meliore tractatos at his, ne omnium menandri sed. Duo sumo liber invidunt ei, idque lorem ea eum, quas recteque et vim. At duo efficiantur conclusionemque, qui fugit omnium ut. Wisi melius habemus sea ea. Affert equidem eam te.
-
+          block land-intro
     #land-keys: #land-keys-inner.container
       .row
         .col-sm-4.land-key
@@ -60,9 +52,9 @@ html(lang="en")
     #land-speakers
       h2 Session Leaders
       .container
-        each it in speaker
+        each it in speakers
           .land-speaker
-            .avatar(style="background-image:url(img/speaker/"+it.id+".jpg)")
+            .avatar(style="background-image:url(/img/speaker/"+it.id+".jpg)")
             .name= it.name
             .title= it.title
             .inst= it.inst

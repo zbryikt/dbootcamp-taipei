@@ -1,5 +1,6 @@
-require! <[chokidar http fs path jade stylus]>
+require! <[chokidar http fs path jade stylus require-reload]>
 require! 'uglify-js': uglify, LiveScript: lsc
+reload = require-reload require
 
 RegExp.escape = -> it.replace /[-[\]{}()*+?.,\\^$|#\s]/g, "\\$&"
 
@@ -247,6 +248,7 @@ update-file = ->
   [type,cmd,des] = [ftype(src), "",""]
   if type == \other => return
   if type == \ls =>
+    if /data.ls$/.exec src => return
     if /src\/ls/.exec src =>
       try
         files = fs.readdir-sync \src/ls/ .map -> "src/ls/#it"
@@ -259,7 +261,6 @@ update-file = ->
         console.log e.message
       return
     else =>
-      if /data.ls$/.exec src => return
       des = src.replace /\.ls$/, ".js"
       try
         mkdir-recurse path.dirname(des)
@@ -305,7 +306,7 @@ update-file = ->
 
   if type == \jade => 
     des = src.replace /\.jade$/, ".html"
-    data = eval(lsc.compile(fs.read-file-sync(\data.ls)toString!,{bare:true}))
+    data = reload "./#{path.dirname(src)}/data.ls"
     try 
       desdir = path.dirname(des)
       if !fs.exists-sync(desdir) or !fs.stat-sync(desdir).is-directory! => mkdir-recurse desdir
