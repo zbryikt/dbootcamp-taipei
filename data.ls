@@ -103,7 +103,7 @@ Background in computer science yet has a deep feeling about environment and soci
 
     * id: "cedric"
       en:
-        name: "Cedric Sam", title: "Editor", inst: "South China Morning Post / HK"
+        name: "Cédric Sam", title: "Editor", inst: "South China Morning Post / HK"
         desc: """Currently works at the South China Morning Post in Hong Kong, sifting through data and creating interactive graphics. In 2007-09, Cedric worked at the CBC in Montreal, making tools for its website and interactive graphics for French television. In 2009, he relocated to Hong Kong and worked at the Journalism and Media Studies Centre (JMSC) at The University of Hong Kong until 2012. He was the main programmer behind the JMSC’s China social media data projects and its WeiboScope. 
 
 He joined the South China Morning Post in 2013 as its first interactive data journalist. In 2015, he transferred to the art department as a graphics editor. He worked as the coder for the multimedia projects such as the award-winning Voices from Tiananmen (2014) and has been the only coder embedded in the SCMP newsroom, working on a range of other projects, front-facing and for internal use.
@@ -176,21 +176,25 @@ infographics.tw 成立於 2014 年，專注於提工中文推廣資料視覺化�
     * time: "09:00 - 09:10"
       speaker: \#clkao
       topic: en: "Opening", zh: "開場"
+      lang: <[zh]>
 
     * time: "09:10 - 09:50"
       speaker: \#justin
-      topic: en: "Keynote", zh: "Keynote"
+      topic: en: "Building News You Can Use", zh: "打造「實用」的新聞"
+      lang: <[en]>
 
     * time: "09:50 - 10:30"
       speaker: \#TBD
       topic: en: "intl DJ Story", zh: "intl DJ Story"
+      lang: <[en]>
 
     * time: "10:30 - 11:00"
       topic: en: "Tea Break", zh: "早茶時間"
 
     * time: "11:00 - 12:00"
       speaker: \#jimmy
-      topic: en: "Data Journalism with Time and Space", zh: "穿越時空的資料新聞呈現 - 簡介與工具介紹"
+      topic: en: "Data Journalism with Time and Space - Showcase and Tools", zh: "穿越時空的資料新聞呈現 - 簡介與工具介紹"
+      lang: <[zh]>
 
     * time: "12:00 - 13:00"
       topic: en: "Lunch Time", zh: "午餐時間"
@@ -198,20 +202,29 @@ infographics.tw 成立於 2014 年，專注於提工中文推廣資料視覺化�
     * time: "13:00 - 14:00"
       speaker: \#ronny
       topic: en: "Where is the Data?", zh: "資料在哪裡？"
+      lang: <[zh]>
 
     * time: "14:00 - 15:00"
       speaker: \#kirby
-      topic: en: "Fighting with Bad Data with Tools and Tips", zh: "迎戰壞資料 - 實用工具與技巧"
+      topic: en: "Fighting Bad Data with Tools and Tips", zh: "迎戰壞資料 - 實用工具與技巧"
+      lang: <[zh]>
 
     * time: "15:00 - 15:30"
       topic: en: "Tea Break", zh: "午茶時間"
 
     * time: "15:30 - 16:00"
       speaker: \#muyueh
-      topic: en: "Chart and Data Visualization", zh: "資料視覺化"
+      topic: en: "Data Visualization: Introduction and Discuss", zh: "資料視覺化：簡介與討論"
+      lang: <[zh]>
 
-    * time: "15:30 - 16:00"
-      speaker: <[#silva #yolanda #cedric]>
-      topic: en: "Panel", zh: "座談"
+    * time: "16:00 - 17:30"
+      speaker: <[#silva #yolanda #cedric #TBD]>
+      lang: <[en zh]>
+      topic: en: "Panel: What makes data journalism works in the newsroom?", zh: "座談：一窺編輯室中的資料新聞"
+
+    * time: "17:30 - 18:00"
+      speaker: \#clkao
+      lang: <[zh]>
+      topic: en: "Closing Notes and g0v Hackathon Warmup", zh: "閉幕 - 為零時政府黑客松暖身吧"
 
 module.exports = base
