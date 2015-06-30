@@ -4,8 +4,10 @@ block vars
 block content
   #land-cover
     #land-cover-text
-      h1 d|Bootcamp@Taipei
-      h3 Academia Sinica, Taipei, Aug 21 2015
+      if locale != 'en'
+        #land-intro-mini d|Bootcamp Taipei
+      h1= aux.cover.title
+      h3= aux.cover.subtitle
 
   #land-intro.container
     .row
@@ -17,6 +19,7 @@ block content
       .col-md-8
         block land-intro
   #land-keys: #land-keys-inner.container
+    h2= aux.landKeys
     .row
       each feature in features
         .col-sm-4.land-key

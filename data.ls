@@ -34,7 +34,11 @@ base = do
 
 base.data = do
   aux:
+    cover:
+      title: zh: "資料新聞實戰營", en: "d|Bootcamp Taipei", 
+      subtitle: zh: "2015.8.21 於中央研究院南港院區", en: "Academia Sinica, Taipei, Aug 21 2015"
     sessions: zh: "議程表", en: "Sessions"
+    land-keys: zh: "課程三大面向", en: ""
     land-speakers: zh: "講師陣容", en: "Session Speakers"
     land-partners: zh: "合作夥伴", en: "Partners"
     heading:
@@ -139,8 +143,12 @@ infographics.tw 成立於 2014 年，專注於提工中文推廣資料視覺化�
 資料」、「開放政治獻金」... 等專案"""
 
     * id: "silva"
-      en: name: "Silva Shih", title: "Not Given",  inst: "To Be Provided"
-      zh: name: "史書華", title: "Not Given",  inst: "To Be Provided"
+      en:
+        name: "Silva Shih", title: "Journalist",  inst: "To Be Provided"
+        desc: """Award-winning reporter, experienced in data visualization, interactive storytelling and digital media strategy. Obsesses about what technology can do for journalism."""
+      zh:
+        name: "史書華", title: "新聞媒體工作者",  inst: "To Be Provided"
+        desc: """從一個平面記者轉到數位領域，喜歡研究科技怎麼影響新聞、新聞室可以怎麼玩新科技。相關新聞報導和製作曾獲金鼎獎、Society for News Design優勝、亞洲出版協會大獎（SOPA）卓越獎。也曾擔任政大新聞系所資料新聞學課程講師。"""
 
   staff:
     * id: "clkao"
