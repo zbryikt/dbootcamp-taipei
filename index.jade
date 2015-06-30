@@ -17,62 +17,10 @@ html(lang="en")
     link(rel="stylesheet",type="text/css",href="/index.css")
     script(type="text/javascript",src="/index.js")
   body
-    include nav.jade
-    #land-cover
-      #land-cover-text
-        h1 d|Bootcamp@Taipei
-        h3 Sinica, Taipei, Aug 21 2015
-
-    #land-intro.container
-      .row
-        .col-md-4
-           #land-intro-city Taipei, Taiwan
-           #land-intro-date Aug 21, 2015
-           br
-           #land-intro-btn.btn.btn-default.btn-lg Sessions
-        .col-md-8
-          block land-intro
-    #land-keys: #land-keys-inner.container
-      .row
-        .col-sm-4.land-key
-          i.glyphicon.glyphicon-qrcode
-          .title Hacks (Journalists) & Bloggers
-          .desc
-            | Journalists, Bloggers, Videographers, Graphic Artists, Interactive Designers. Learn to tell more powerful stories with new new tools. Learn to use data to create localised / personalised content.
-        .col-sm-4.land-key
-          i.glyphicon.glyphicon-qrcode
-          .title Hackers & Makers
-          .desc
-            | Journalists, Bloggers, Videographers, Graphic Artists, Interactive Designers. Learn to tell more powerful stories with new new tools. Learn to use data to create localised / personalised content.
-        .col-sm-4.land-key
-          i.glyphicon.glyphicon-qrcode
-          .title Hackers & Makers
-          .desc 
-            | Journalists, Bloggers, Videographers, Graphic Artists, Interactive Designers. Learn to tell more powerful stories with new new tools. Learn to use data to create localised / personalised content.
-    #land-speakers
-      h2 Session Leaders
-      .container
-        each it in speakers
-          .land-speaker
-            .avatar(style="background-image:url(/img/speaker/"+it.id+".jpg)")
-            .name= it.name
-            .title= it.title
-            .inst= it.inst
-
-    #land-partners.container
-      .row
-        .col-md-4
-          h3 Partners
-          p This Taipei d|Bootcamp has been made possible through support from the following partners:
-        .col-md-8
-          img(src="img/partner/g0v.jpg")
-    #land-mission: .container.text-center
-      h3 Our Mission
-      p To boost analytical, evidence-based public discussion by giving citizens, journalists and civil society access to the data, digital tools, and computational skills necessary for transforming our societies into digital democracies.
-      hr
-      .frame: img(src="img/partner/worldbank-group.jpg")
-      br
-    #footer: #footer-inner.container
-      .pull-right FB
-      span Taipei d|Bootcamp
-   
+    script(type="text/javascript").
+      var lang = navigator.userLanguage || navigator.language || navigator.browserLanguage || navigator.systemLanguage;
+      if(/zh|tw/i.exec(lang)) { 
+        window.location.replace("/zh/");
+      } else {
+        window.location.replace("/en/");
+      }
