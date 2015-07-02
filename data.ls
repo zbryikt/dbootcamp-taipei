@@ -157,6 +157,9 @@ infographics.tw 成立於 2014 年，專注於提工中文推廣資料視覺化�
     * id: "TBD"
       en: name: "TBD", title: "",  inst: ""
       zh: name: "未定", title: "",  inst: ""
+    * id: "secret"
+      en: name: "????", title: "",  inst: ""
+      zh: name: "神秘嘉賓", title: "",  inst: ""
 
   features:
     * id: "global"
@@ -193,7 +196,7 @@ infographics.tw 成立於 2014 年，專注於提工中文推廣資料視覺化�
 
     * time: "09:50 - 10:30"
       speaker: \#TBD
-      topic: en: "intl DJ Story", zh: "intl DJ Story"
+      topic: en: "TBD", zh: "未定"
       lang: <[en]>
 
     * time: "10:30 - 11:00"
@@ -226,7 +229,7 @@ infographics.tw 成立於 2014 年，專注於提工中文推廣資料視覺化�
       lang: <[zh]>
 
     * time: "16:00 - 17:30"
-      speaker: <[#silva #yolanda #cedric #TBD]>
+      speaker: <[#silva #yolanda #cedric #kirby #secret]>
       lang: <[en zh]>
       topic: en: "Panel: What makes data journalism works in the newsroom?", zh: "座談：一窺編輯室中的資料新聞"
 
