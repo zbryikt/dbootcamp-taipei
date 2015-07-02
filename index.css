@@ -26,6 +26,9 @@ h6 {
 a {
   color: #0873bb;
 }
+.navbar-header {
+  float: left;
+}
 nav.navbar.navbar-default .navbar-nav a {
   color: #404042;
 }
@@ -37,6 +40,9 @@ nav.navbar.navbar-default .navbar-nav li.active a {
   color: #0873bb;
   font-weight: bold;
   background: none;
+}
+.navbar.pull-right {
+  margin-bottom: 0;
 }
 nav.navbar.navbar-default {
   -ms-transition: all 0.3s ease-in-out;

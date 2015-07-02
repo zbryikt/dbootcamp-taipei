@@ -6,11 +6,16 @@ nav#nav-top.navbar.navbar-default.navbar-fixed-top
     //-.navbar.pull-right
       ul.nav.navbar-nav
         li: a(href="#") Menu
-    .collapse.navbar-collapse.pull-right
-      ul.nav.navbar-nav
+    .navbar.pull-right
+      ul.nav.navbar-nav.hidden-xs.hidden-sm
         each item in navbar
           li: a(href=item.link)= item.name
         if locale == 'en'
           li: a(href="/zh/") 中文
         else
+          li: a(href="/en/") English
+      ul.nav.navbar-nav.dropdown.hidden-md.hidden-lg: li
+        a#nav-collapse(data-toggle="dropdown",href="#") Menu #[span.caret]
+        //-ul.dropdown-menu(aria-labelledby="nav-collapse")
+          li: a(href="/zh/") 中文
           li: a(href="/en/") English
