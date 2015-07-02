@@ -284,6 +284,9 @@ nav.navbar.navbar-default.zoom img,
 #footer span {
   line-height: 37px;
 }
+#footer a {
+  color: #909096;
+}
 .section-heading {
   background: #efc152;
   padding: 1px;
