@@ -18,9 +18,10 @@ block content
          a#land-intro-btn.btn.btn-default.btn-lg(href="agenda.html")= aux.sessions
          br
          br
-         a.btn.btn-default.btn-lg(href="https://docs.google.com/forms/d/18j4dn44jh0QGMr7Fiw_oynap8ZkrGTPG2hZwaPMNks8/viewform") 助教募集中
-         br
-         br
+         if locale == 'zh'
+           a.btn.btn-default.btn-lg(href="https://docs.google.com/forms/d/18j4dn44jh0QGMr7Fiw_oynap8ZkrGTPG2hZwaPMNks8/viewform") 助教募集中
+           br
+           br
          a(href="https://twitter.com/search/realtime/%23dBootcamp"): img(src="/img/icon/twitter_64px.png")
          | &nbsp; &nbsp;
          a(href="https://plus.google.com/u/0/s/%23dBootcamp"): img(src="/img/icon/googleplus_64px.png")
