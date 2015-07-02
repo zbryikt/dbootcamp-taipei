@@ -148,7 +148,7 @@ infographics.tw 成立於 2014 年，專注於提工中文推廣資料視覺化�
         desc: """Award-winning reporter, experienced in data visualization, interactive storytelling and digital media strategy. Obsesses about what technology can do for journalism."""
       zh:
         name: "史書華", title: "新聞媒體工作者",  inst: "To Be Provided"
-        desc: """從一個平面記者轉到數位領域，喜歡研究科技怎麼影響新聞、新聞室可以怎麼玩新科技。相關新聞報導和製作曾獲金鼎獎、Society for News Design優勝、亞洲出版協會大獎（SOPA）卓越獎。也曾擔任政大新聞系所資料新聞學課程講師。"""
+        desc: """從一個平面記者轉到數位領域，喜歡研究科技怎麼影響新聞、新聞室可以怎麼玩新科技。相關新聞報導和製作曾獲金鼎獎、Society for News Design優勝、亞洲出版協會（SOPA）數位新聞及資料圖像卓越獎。也曾擔任政大新聞系所資料新聞學課程講師。"""
 
   staff:
     * id: "clkao"
