@@ -32,6 +32,7 @@ nav.navbar.navbar-default .navbar-nav a {
 nav.navbar.navbar-default .navbar-nav a:hover {
   color: #0873bb;
 }
+nav.navbar.navbar-default .navbar-nav li:first-of-type a,
 nav.navbar.navbar-default .navbar-nav li.active a {
   color: #0873bb;
   font-weight: bold;
@@ -74,6 +75,9 @@ nav.navbar.navbar-default img {
 #landing nav.navbar.navbar-default .navbar-nav a {
   color: #fff;
 }
+#landing nav.navbar.navbar-default .navbar-nav li:first-of-type a {
+  color: #48b3fb;
+}
 nav.navbar.navbar-default.zoom,
 #landing nav.navbar.navbar-default.zoom {
   background: rgba(255,255,255,0.91);
@@ -87,6 +91,10 @@ nav.navbar.navbar-default.zoom .navbar-nav a,
   height: 50px;
   line-height: 20px;
   color: #404042;
+}
+nav.navbar.navbar-default.zoom .navbar-nav li:first-of-type a,
+#landing nav.navbar.navbar-default.zoom .navbar-nav li:first-of-type a {
+  color: #0873bb;
 }
 nav.navbar.navbar-default.zoom img,
 #landing nav.navbar.navbar-default.zoom img {
@@ -164,6 +172,10 @@ nav.navbar.navbar-default.zoom img,
 }
 #land-intro img {
   height: 50px;
+  border-radius: 50%;
+}
+#land-intro img:hover {
+  background: #f1c55a;
 }
 #land-intro-city,
 #land-intro-date {

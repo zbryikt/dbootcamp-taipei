@@ -50,6 +50,7 @@ base.data = do
       speaker: zh: \講者, en: \Speaker
       topic: zh: \主題, en: \Topic
   navbar:
+    * link: "http://taipei.dbootcamp.org", zh: "台北，台灣", en: "Taipei, Taiwan"
     * link: "registration/", zh: "報名", en: "Registration"
     * link: "agenda.html", zh: "議程", en: "Agenda"
     * link: "speakers.html", zh: "講者", en: "Speakers"
