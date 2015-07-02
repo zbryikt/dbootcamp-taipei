@@ -201,7 +201,7 @@ infographics.tw 成立於 2014 年，專注於提工中文推廣資料視覺化�
       lang: <[en]>
 
     * time: "09:50 - 10:30"
-      speaker: \#TBD
+      speaker: \#david
       topic: en: "TBD", zh: "未定"
       lang: <[en]>
 
