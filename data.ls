@@ -56,18 +56,6 @@ base.data = do
     * link: "speakers.html", zh: "講者", en: "Speakers"
     * link: "http://datasci.tw", zh: "DataSci.tw", en: "DataSci.tw"
   speakers: 
-    * id: "muyueh"
-      en: 
-        name: "Muyueh Lee", title: "Founder", inst: "muyueh.com"
-        desc: ""
-      zh: 
-        name: "李慕約",     title: "創辦人",  inst: "李慕約公司"
-        desc: """SheetHub.com 的共同創辦人，以 d3.js 製作資料視覺化。參與中国器官分配与共享系统研究中心 (COTRS) 與 世界衛生組織 (WHO) 的專案，針對 700 家三級甲等醫院資料庫建置視覺分析界面。其他客戶涵蓋台北市政府、天下雜誌等。曾經視覺化的領域橫跨財金、能源、交通、糧食、語言以及漢堡。
-
-在零時政府 g0v.tw 貢獻「發電成本計算機」，其蔬菜價格的研究，獲經濟部頒選為最佳 OpenData 應用。
-
-在各地從事資料相關教學，包含：「世界銀行 DataBootCamp / 新加坡」、「Google Squared Program 香港」、「台大新聞研究所 / 台灣」。
-"""
 
     * id: "justin"
       en: 
@@ -81,6 +69,14 @@ Justin同時負責Innovate Africa基金及Impact Africa初創基金，在非洲�
 
 在更早之前，Justin曾擔任南非媒體委員，同時服務多個新聞媒體單位及智庫。所撰寫的調查報導，曾讓數位議員及官員最終接受司法制裁。"""
 
+    * id: "david"
+      en:
+        name: "David Eads", title: "Technical Architect", inst: "National Public Radio"
+        desc: """ ... """
+      zh:
+        name: "David Eads", title: "技術架構師", inst: "美國國家公共電台"
+        desc: """ ... """
+
     * id: "yolanda"
       en:
         name: "Yolanda Ma", title: "Consultant", inst: "UNDP Asia & Pacific"
@@ -88,19 +84,6 @@ Justin同時負責Innovate Africa基金及Impact Africa初創基金，在非洲�
       zh: 
         name: "馬金馨",     title: "創新顧問", inst: "聯合國開發計畫署亞洲總部"
         desc: """數據中文網聯合創辦人，「開放數據中國」協同發起人。曾任湯森路透（Thomson Reuters）資料新聞助理專案經理，協管資料新聞產品的開發與執行，專案「Connected China」曾獲2013年度全球資料新聞獎。前香港南華早報首任社交媒體編輯，負責專案「公民地圖」獲亞洲出版協會2011年度卓越新聞榮譽獎。現任聯合國開發計畫署亞太總部創新顧問。"""
-
-    * id: "jimmy"
-      en:
-        name: "Jimmy Huang", title: "Director",   inst: "Open Culture Foundation"
-        desc: """Founder of g0v projects including: "fact", "timemap", and "taiwan land stat".
-
-Background in computer science yet has a deep feeling about environment and society. As a founder of social enterprise and cares more about things not profitable. One of the internet generation but still wish to bring online to offline."""
-      zh:
-        name: "黃雋", title: "董事",   inst: "財團法人開放文化基金會"
-        desc: """g0v專案：政誌 / 時間地圖 / 賽豬公上太空
-  雖然資訊工程出身，卻對環境社會特別有感受；
-  雖然辦了個社會(?)企業，卻對不賺錢的事情特別有興趣；
-  雖然身處網路的虛擬世代，卻希望總是能與實體相互有交集。"""
 
     * id: "cedric"
       en:
@@ -116,6 +99,30 @@ Cedric freelanced for clients such as The New York Times, The Canadian Press, La
 
 2013年加入南華早報，為編輯部唯一具有撰寫程式能力的記者，曾參與社內各大數位專輯和資料新聞專案，例如2014年獲獎作品<a href="http://multimedia.scmp.com/tiananmen" target="_blank">天安門之聲</a>。岑正倫也曾與The New York Times、The Canadian Press、 La Presse、CBC媒體合作專案。他近期最喜愛的開發平台和程式庫為Google Maps API和D3.js。"""
 
+    * id: "jimmy"
+      en:
+        name: "Jimmy Huang", title: "Director",   inst: "Open Culture Foundation"
+        desc: """Founder of g0v projects including: "fact", "timemap", and "taiwan land stat".
+
+Background in computer science yet has a deep feeling about environment and society. As a founder of social enterprise and cares more about things not profitable. One of the internet generation but still wish to bring online to offline."""
+      zh:
+        name: "黃雋", title: "董事",   inst: "財團法人開放文化基金會"
+        desc: """g0v專案：政誌 / 時間地圖 / 賽豬公上太空
+  雖然資訊工程出身，卻對環境社會特別有感受；
+  雖然辦了個社會(?)企業，卻對不賺錢的事情特別有興趣；
+  雖然身處網路的虛擬世代，卻希望總是能與實體相互有交集。"""
+
+    * id: "ronny"
+      en:
+        name: "Ronny Wang", title: "Cofounder",  inst: "SheetHub.com"
+        desc: """Cofounder of SheetHub.com. Enjoy in collecting, scraping, releasing and using data. Founder and participant of g0v projects including "News Helper", "Job Helpers", "Taiwan Company Data", "Open Campaign Finance"""
+      zh:
+        name: "王向榮", title: "共同創辦人",  inst: "SheetHub.com"
+        desc: """SheetHub.com 共同創辦人，曾任痞客邦產品開發副理，走吧旅行社
+技術研發協理。熱愛收集資料、爬資料、放資料、用資料。 在零時
+政府發起或參與「新聞小幫手」、「求職小幫手」、「台灣公司
+資料」、「開放政治獻金」... 等專案"""
+
     * id: "kirby"
       en:
         name: "Kirby Wu", title: "Cofounder", inst: "foundi.info"
@@ -128,16 +135,18 @@ founded in 2014, infographics.tw focuses on providing information about  data vi
 
 infographics.tw 成立於 2014 年，專注於提工中文推廣資料視覺化的技術與應用，涵蓋的領域包含網站視覺化技術、資料爬梳、資料分析以及媒體創新應用。"""
 
-    * id: "ronny"
-      en:
-        name: "Ronny Wang", title: "Cofounder",  inst: "SheetHub.com"
-        desc: """Cofounder of SheetHub.com. Enjoy in collecting, scraping, releasing and using data. Founder and participant of g0v projects including "News Helper", "Job Helpers", "Taiwan Company Data", "Open Campaign Finance"""
-      zh:
-        name: "王向榮", title: "共同創辦人",  inst: "SheetHub.com"
-        desc: """SheetHub.com 共同創辦人，曾任痞客邦產品開發副理，走吧旅行社
-技術研發協理。熱愛收集資料、爬資料、放資料、用資料。 在零時
-政府發起或參與「新聞小幫手」、「求職小幫手」、「台灣公司
-資料」、「開放政治獻金」... 等專案"""
+    * id: "muyueh"
+      en: 
+        name: "Muyueh Lee", title: "Founder", inst: "muyueh.com"
+        desc: ""
+      zh: 
+        name: "李慕約",     title: "創辦人",  inst: "李慕約公司"
+        desc: """SheetHub.com 的共同創辦人，以 d3.js 製作資料視覺化。參與中国器官分配与共享系统研究中心 (COTRS) 與 世界衛生組織 (WHO) 的專案，針對 700 家三級甲等醫院資料庫建置視覺分析界面。其他客戶涵蓋台北市政府、天下雜誌等。曾經視覺化的領域橫跨財金、能源、交通、糧食、語言以及漢堡。
+
+在零時政府 g0v.tw 貢獻「發電成本計算機」，其蔬菜價格的研究，獲經濟部頒選為最佳 OpenData 應用。
+
+在各地從事資料相關教學，包含：「世界銀行 DataBootCamp / 新加坡」、「Google Squared Program 香港」、「台大新聞研究所 / 台灣」。
+"""
 
     * id: "silva"
       en:
