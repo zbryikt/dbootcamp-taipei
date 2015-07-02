@@ -83,14 +83,10 @@ Justin同時負責Innovate Africa基金及Impact Africa初創基金，在非洲�
     * id: "yolanda"
       en:
         name: "Yolanda Ma", title: "Consultant", inst: "UNDP Asia & Pacific"
-        desc: """Award-winning digital strategist specializing in data journalism, social media and non-profit technology. She actively speaks at various events, from global media conferences to local meet-ups. She offers training on digital media to media organizations and non-profits.
-
-She co-founds DJChina, where DJ stands for data journalism, the first website in Chinese providing knowledge and information about data journalism. She was the Assistant Project Manager, Data at Thomson Reuters until Dec 2013, where she deputized overseeing data journalism projects. ConnectedChina, the flagship project of her team, which structures and visualizes publicly-available data about China’s elite leadership, won the Data Journalism Award of 2013.
-
-She is currently based in Bangkok, Thailand, serving as innovation consultant for the UNDP Regional Bureau of Asia Pacific, providing advisory support to country offices on communications and technology."""
+        desc: """Yolanda Ma is the co-founder and editor of Data Journalism China, an independent website that promotes and educates on data journalism in Chinese. She has trained hundreds of professional journalists in China on data analysis and visualisation skills since 2012. She previously worked for Reuters as assistant project manager for "Connected China", which won 2013 Data Journalism Award. Before that she was the first social media editor for the South China Morning Post in Hong Kong. Currently she is based in Bangkok, working for the U.N. on innovation and communications."""
       zh: 
         name: "馬金馨",     title: "創新顧問", inst: "聯合國開發計畫署亞洲總部"
-        desc: """現任聯合國開發計畫署亞洲總部創新顧問，數據中文網聯合創辦人。曾任湯森路透（Thomson Reuters）資料新聞助理專案經理，協管資料新聞產品的開發與執行，專案「Connected China」曾獲2013 Data Journalism Award。前香港南華早報首任社交媒體編輯，負責專案「公民地圖」獲亞洲出版協會2011年度卓越新聞榮譽獎。亦曾兼任國際記者網首任中文站主編。喜愛詩歌、攝影、紀錄片。"""
+        desc: """數據中文網聯合創辦人，「開放數據中國」協同發起人。曾任湯森路透（Thomson Reuters）資料新聞助理專案經理，協管資料新聞產品的開發與執行，專案「Connected China」曾獲2013年度全球資料新聞獎。前香港南華早報首任社交媒體編輯，負責專案「公民地圖」獲亞洲出版協會2011年度卓越新聞榮譽獎。現任聯合國開發計畫署亞太總部創新顧問。"""
 
     * id: "jimmy"
       en:
@@ -117,7 +113,7 @@ Cedric freelanced for clients such as The New York Times, The Canadian Press, La
         name: "岑正倫", title: "編輯", inst: "香港南華早報"
         desc: """香港南華早報第一位資料新聞記者，目前為南華早報圖表編輯。畢業於加拿大McGill大學生化系及資工系，2012年取得香港理工大學互動設計碩士。過去曾服務加拿大蒙特婁CBC電視，製作互動圖表。2009年移居香港，在香港大學新聞暨傳媒中心工作，港大知名研究微博審查的觀察網站「微博視野」，岑正倫為初期推手之一。
 
-2013年加入南華早報，為編輯部唯一具有撰寫程式能力的記者，曾參與社內各大數位專輯和資料新聞專案，例如2014年獲獎作品<a href=""http://multimedia.scmp.com/tiananmen"" targer=""_blank"">天安門之聲</a>。岑正倫也曾與The New York Times、The Canadian Press、 La Presse、CBC媒體合作專案。他近期最喜愛的開發平台和程式庫為Google Maps API和D3.js。"""
+2013年加入南華早報，為編輯部唯一具有撰寫程式能力的記者，曾參與社內各大數位專輯和資料新聞專案，例如2014年獲獎作品<a href="http://multimedia.scmp.com/tiananmen" target="_blank">天安門之聲</a>。岑正倫也曾與The New York Times、The Canadian Press、 La Presse、CBC媒體合作專案。他近期最喜愛的開發平台和程式庫為Google Maps API和D3.js。"""
 
     * id: "kirby"
       en:
@@ -191,7 +187,7 @@ infographics.tw 成立於 2014 年，專注於提工中文推廣資料視覺化�
 
     * time: "09:10 - 09:50"
       speaker: \#justin
-      topic: en: "Building News You Can Use", zh: "打造「實用」的新聞"
+      topic: en: "Building News You Can Use", zh: "打造「能用」的新聞"
       lang: <[en]>
 
     * time: "09:50 - 10:30"

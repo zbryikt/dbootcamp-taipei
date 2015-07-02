@@ -15,7 +15,11 @@ block content
          #land-intro-city Taipei, Taiwan
          #land-intro-date Aug 21, 2015
          br
-         a#land-intro-btn.btn.btn-default.btn-lg(href="agenda/")= aux.sessions
+         a#land-intro-btn.btn.btn-default.btn-lg(href="agenda.html")= aux.sessions
+         br
+         br
+         a(href="https://twitter.com/search/realtime/%23dBootcamp"): img(src="/img/icon/twitter_64px.png")
+         a(href="https://plus.google.com/u/0/s/%23dBootcamp"): img(src="/img/icon/googleplus_64px.png")
       .col-md-8
         block land-intro
   #land-keys: #land-keys-inner.container
@@ -42,9 +46,7 @@ block content
       .col-md-4
         block land-partners
       .col-md-8
-        img(src="/img/partner/g0v.jpg")
-        img(src="/img/partner/c4a.png")
-        img(src="/img/partner/datasci.png")
-        //-img(src="/img/partner/scmp.png")
-        //-img(src="/img/partner/djchina.png")
-        img(src="/img/partner/ocf.png")
+        a(href="http://g0v.tw"): img(src="/img/partner/g0v.jpg")
+        a(href="http://www.codeforafrica.org/"): img(src="/img/partner/c4a.png")
+        a(href="http://datasci.tw"): img(src="/img/partner/datasci.png")
+        a(href="http://ocf.tw"): img(src="/img/partner/ocf.png")

@@ -162,6 +162,9 @@ nav.navbar.navbar-default.zoom img,
     font-size: 1.4em;
   }
 }
+#land-intro img {
+  height: 50px;
+}
 #land-intro-city,
 #land-intro-date {
   color: #333;
@@ -255,13 +258,19 @@ nav.navbar.navbar-default.zoom img,
   background: #efc152;
   padding: 1px;
 }
+#land-mission h3 {
+  font-weight: normal;
+}
 #footer {
-  background: #404042;
-  padding: 10px;
+  background: #2b2a2c;
+  padding: 1px;
   color: #909096;
 }
 #footer .container {
-  margin: 10px;
+  margin: 10px auto;
+}
+#footer span {
+  line-height: 37px;
 }
 .section-heading {
   background: #efc152;
@@ -284,7 +293,7 @@ nav.navbar.navbar-default.zoom img,
 #base-sponsors img {
   max-height: 80px;
   max-width: 100%;
-  margin: 20px;
+  margin: 20px 10px;
 }
 .label-en,
 .label-zh {
