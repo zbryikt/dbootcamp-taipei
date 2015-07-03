@@ -71,10 +71,12 @@ Justin同時負責Innovate Africa基金及Impact Africa初創基金，在非洲�
 
     * id: "david"
       en:
-        name: "David Eads", title: "Technical Architect", inst: "National Public Radio"
-        desc: """ ... """
+        name: "David Eads", title: "News Application Developer", inst: "National Public Radio"
+        desc: """I build news applications for NPR Visuals. Until recently, I built news apps for the Chicago Tribune. I speak and teach about technology, organize a community data journalism workshop, developed the Tarbell publishing platform, and helped start FreeGeek Chicago.
+          
+          My work connects journalism, data, and social issues. I build and teach simple, direct solutions that help journalists effectively tell their stories on the web. I contribute to and organize projects that strive for democracy, diversity, and sustainability."""
       zh:
-        name: "David Eads", title: "技術架構師", inst: "美國國家公共電台"
+        name: "David Eads", title: "新聞 Apps 開發者", inst: "美國國家公共電台"
         desc: """ ... """
 
     * id: "yolanda"
