@@ -44,6 +44,20 @@ nav.navbar.navbar-default .navbar-nav li.active a {
 .navbar.pull-right {
   margin-bottom: 0;
 }
+.navbar.navbar-default .dropdown .dropdown-menu {
+  background: rgba(0,0,0,0.2);
+  border: 1px solid #333;
+  -ms-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.navbar.navbar-default.zoom .dropdown .dropdown-menu {
+  background: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+}
 nav.navbar.navbar-default {
   -ms-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -55,8 +69,8 @@ nav.navbar.navbar-default .container {
   padding: 0;
   margin: auto;
 }
-nav.navbar.navbar-default .navbar-brand a,
-nav.navbar.navbar-default .navbar-nav a {
+nav.navbar.navbar-default .navbar-brand > a,
+nav.navbar.navbar-default ul.navbar-nav > li > a {
   height: 70px;
   line-height: 40px;
   -ms-transition: all 0.3s ease-in-out;
@@ -92,8 +106,8 @@ nav.navbar.navbar-default.zoom,
 }
 nav.navbar.navbar-default.zoom .navbar-brand a,
 #landing nav.navbar.navbar-default.zoom .navbar-brand a,
-nav.navbar.navbar-default.zoom .navbar-nav a,
-#landing nav.navbar.navbar-default.zoom .navbar-nav a {
+nav.navbar.navbar-default.zoom ul.navbar-nav > li > a,
+#landing nav.navbar.navbar-default.zoom ul.navbar-nav > li > a {
   height: 50px;
   line-height: 20px;
   color: #404042;
