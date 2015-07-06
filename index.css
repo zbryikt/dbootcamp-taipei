@@ -354,6 +354,23 @@ nav.navbar.navbar-default.zoom img,
   cursor: pointer;
   color: #0873bb;
 }
+.avatar-agenda-popup {
+  width: 64px;
+  height: 64px;
+  border-radius: 5px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #ddd;
+  background-size: cover;
+  float: left;
+}
+h2.agenda-popup {
+  margin-top: 0;
+}
+p.agenda-popup {
+  white-space: pre-line;
+  text-align: left;
+}
 .speaker {
   margin: 20px 10px 40px 10px;
   padding: 10px;

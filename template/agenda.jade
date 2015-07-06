@@ -1,12 +1,15 @@
 extends base.jade
-mixin topic-modal(id, title, summary)
+mixin topic-modal(id, title, summary,speaker)
   .modal.fade(id="topic-"+id): .modal-dialog: .modal-content
     .modal-header
       button.close(type="button",data-dismiss="modal") &times;
       h4.modal-title= title
     .modal-body
-      //.avatar(style="background-image:url(/img/speaker/"+slot.speaker.id+".jpg)")
-      p= summary
+      .avatar-agenda-popup(style="background-image:url(/img/speaker/"+speaker.id+".jpg)")
+      h2.agenda-popup
+        span= speaker.name 
+        span #[br] #[small= speaker.title] #[small /] #[small= speaker.inst]
+      p.agenda-popup= speaker.desc
     .modal-footer
       .btn.btn-default(data-dismiss="modal") Close
 
@@ -38,9 +41,9 @@ block content
               span= slot.lang
           else
             td
-              //-+topic-modal(slot.speaker.id, slot.topic, slot.summary)
-              //-span.clickable-topic(onclick="$('#topic-"+slot.speaker.id+"').modal('show')")= slot.topic
-              span= slot.topic
+              +topic-modal(slot.speaker.id, slot.topic, slot.summary, slot.speaker)
+              span.clickable-topic(onclick="$('#topic-"+slot.speaker.id+"').modal('show')")= slot.topic
+              //-span= slot.topic
               if slot.lang
                 each lc in slot.lang
                   .label.label-danger.pull-right(class="label-"+lc)= lc
