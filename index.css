@@ -199,6 +199,8 @@ nav.navbar.navbar-default.zoom img,
   font-size: 1.8em;
 }
 #land-intro .btn {
+  min-width: 70%;
+  margin-top: 10px;
   border: 2px solid #d94328;
   color: #d94328;
   padding: 15px 25px;
