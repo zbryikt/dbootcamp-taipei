@@ -350,7 +350,7 @@ nav.navbar.navbar-default.zoom img,
 #agenda td span {
   margin-right: 10px;
 }
-.clickable-topic {
+.clickable-link {
   cursor: pointer;
   color: #0873bb;
 }
@@ -362,6 +362,7 @@ nav.navbar.navbar-default.zoom img,
   background-position: center center;
   background-color: #ddd;
   background-size: cover;
+  margin-right: 10px;
   float: left;
 }
 h2.agenda-popup {

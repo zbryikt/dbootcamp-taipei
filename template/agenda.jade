@@ -2,7 +2,7 @@ extends base.jade
 mixin topic-modal(id, title, summary, speaker)
   if !speaker.id
     - speaker = speaker[0]
-  .modal.fade(id="topic-"+id): .modal-dialog: .modal-content
+  .modal.fade(id=id): .modal-dialog: .modal-content
     .modal-header
       button.close(type="button",data-dismiss="modal") &times;
       h4.modal-title= title
@@ -11,6 +11,7 @@ mixin topic-modal(id, title, summary, speaker)
       h2.agenda-popup
         span= speaker.name 
         span #[br] #[small= speaker.title] #[small /] #[small= speaker.inst]
+      hr
       p.agenda-popup= speaker.desc
     .modal-footer
       .btn.btn-default(data-dismiss="modal") Close
@@ -38,17 +39,21 @@ block content
           if slot.speaker && slot.speaker.length
             td 
               each speaker in slot.speaker
-                span= speaker.name
+                +topic-modal("speaker-"+speaker.id, "", "", speaker)
+                span.clickable-link(onclick="$('#speaker-"+speaker.id+"').modal('show')")= speaker.name
           else if slot.speaker
-            td= slot.speaker.name
+            td
+              +topic-modal("speaker-"+slot.speaker.id, "", "", slot.speaker)
+              span.clickable-link(onclick="$('#speaker-"+slot.speaker.id+"').modal('show')")= slot.speaker.name
           if !slot.speaker
             td.text-center(colspan="2")
               span= slot.topic
               span= slot.lang
           else
             td
-              +topic-modal(slot.speaker.id, slot.topic, slot.summary, slot.speaker)
-              span.clickable-topic(onclick="$('#topic-"+slot.speaker.id+"').modal('show')")= slot.topic
+              //-+topic-modal("topic-"+slot.speaker.id, slot.topic, slot.summary, slot.speaker)
+              //-span.clickable-topic(onclick="$('#topic-"+slot.speaker.id+"').modal('show')")= slot.topic
+              span= slot.topic
               if slot.lang
                 each lc in slot.lang
                   .label.label-danger.pull-right(class="label-"+lc)= lc
