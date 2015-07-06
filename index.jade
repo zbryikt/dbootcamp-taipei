@@ -16,6 +16,32 @@ html(lang="en")
     link(rel="stylesheet",type="text/css",href="//fonts.googleapis.com/css?family=Open+Sans")
     link(rel="stylesheet",type="text/css",href="/index.css")
     script(type="text/javascript",src="/index.js")
+    script(type="application/ld+json").
+      {
+        "@context": "http://schema.org",
+        "@type": "Event",
+        "name": [
+          { "@language": "en",
+            "@value": "d|Bootcamp Taipei"
+          },
+          { "@language": "zh-TW",
+            "@value": "資料新聞學實戰營 d|Bootcamp Taipei"
+          }],
+        "startDate" : "2015-08-21T09:00",
+        "url" : "http://taipei.dbootcamp.org/",
+        "location" : {
+          "@type" : "Place",
+          "sameAs" : "http://www.hi-dive.com",
+          "name" : "Academia Sinica, Taiwan",
+          "address" : "128 Academia Road, Section 2, Nankang, Taipei 11529, Taiwan"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "2980",
+          "priceCurrency": "TWD",
+          "url": "http://datasci.tw/signup.html"
+        }
+      }
   body
     script(type="text/javascript").
       var lang = navigator.userLanguage || navigator.language || navigator.browserLanguage || navigator.systemLanguage;
