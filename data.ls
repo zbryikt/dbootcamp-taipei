@@ -72,12 +72,14 @@ Justin同時負責Innovate Africa基金及Impact Africa初創基金，在非洲�
     * id: "david"
       en:
         name: "David Eads", title: "News Application Developer", inst: "National Public Radio"
-        desc: """I build news applications for NPR Visuals. Until recently, I built news apps for the Chicago Tribune. I speak and teach about technology, organize a community data journalism workshop, developed the Tarbell publishing platform, and helped start FreeGeek Chicago.
+        desc: """He builds news applications for NPR Visuals. Until recently, he built news apps for the Chicago Tribune. He speaks and teachs about technology, organizes a community data journalism workshop, developed the Tarbell publishing platform, and helped start FreeGeek Chicago.
           
-          My work connects journalism, data, and social issues. I build and teach simple, direct solutions that help journalists effectively tell their stories on the web. I contribute to and organize projects that strive for democracy, diversity, and sustainability."""
+          His work connects journalism, data, and social issues. He builds and teachs simple, direct solutions that help journalists effectively tell their stories on the web. He contributes to and organizes projects that strive for democracy, diversity, and sustainability."""
       zh:
         name: "David Eads", title: "新聞 Apps 開發者", inst: "美國國家公共電台"
-        desc: """ ... """
+        desc: """他為美國國家公共電台視覺化團隊打造新聞應用程式。直到最近，他也為芝加哥論壇報開發新聞 Apps 。除了演講與教授與技術相關的題目，他還組織了一個資料新聞學工作坊、開發了 Tarbell 發佈平台、並協助發起了 FreeGeek Chicago。 
+        
+        他的作品連接了新聞學、資料與社會議題。他打造並傳授了簡單、直接的方法來幫助新聞記者們更有效率的透過網路敘說故事。他貢獻、也組織了許多關於民主、多元性與永續性的專案。"""
 
     * id: "yolanda"
       en:
@@ -140,7 +142,8 @@ infographics.tw 成立於 2014 年，專注於提工中文推廣資料視覺化�
     * id: "muyueh"
       en: 
         name: "Muyueh Lee", title: "Founder", inst: "muyueh.com"
-        desc: ""
+        desc: """Muyueh Lee develops programming-based visualization (http://muyueh.com/). His most recent work for WHO and the China Organ Transplant Response System (COTRS) uses JavaScript to analyze 30 million pieces of medical data from 750 top-tier hospitals in
+        China. The Vice President of the Republic of China presented Muyueh with the Best Open Data Application Award. He has received an invitation to conduct a data workshop for Google (Hong-Kong), World Bank (Singapore), and National Taiwan University (Taiwan)."""
       zh: 
         name: "李慕約",     title: "創辦人",  inst: "李慕約公司"
         desc: """SheetHub.com 的共同創辦人，以 d3.js 製作資料視覺化。參與中国器官分配与共享系统研究中心 (COTRS) 與 世界衛生組織 (WHO) 的專案，針對 700 家三級甲等醫院資料庫建置視覺分析界面。其他客戶涵蓋台北市政府、天下雜誌等。曾經視覺化的領域橫跨財金、能源、交通、糧食、語言以及漢堡。
