@@ -36,7 +36,7 @@ base.data = do
   aux:
     cover:
       title: zh: "資料新聞實戰營", en: "d|Bootcamp Taipei", 
-      subtitle: zh: "2015.8.21 於中央研究院南港院區", en: "Academia Sinica, Taipei, Aug 21 2015"
+      subtitle: zh: "2015.8.21 ~ 8.23 於中央研究院南港院區", en: "Academia Sinica, Taipei, Aug 21 ~23 2015"
     sessions: zh: "議程表", en: "Sessions"
     registration: zh: "報名 (7/7 開放)", en: "Registration opens Jul 7"
     land-keys: zh: "課程三大面向", en: ""

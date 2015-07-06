@@ -8,3 +8,7 @@
 #agenda td span {
   margin-right: 10px;
 }
+.clickable-topic {
+  cursor: pointer;
+  color: #0873bb;
+}

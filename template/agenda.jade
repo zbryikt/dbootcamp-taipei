@@ -1,7 +1,19 @@
 extends base.jade
+mixin topic-modal(id, title, summary)
+  .modal.fade(id="topic-"+id): .modal-dialog: .modal-content
+    .modal-header
+      button.close(type="button",data-dismiss="modal") &times;
+      h4.modal-title= title
+    .modal-body
+      //.avatar(style="background-image:url(/img/speaker/"+slot.speaker.id+".jpg)")
+      p= summary
+    .modal-footer
+      .btn.btn-default(data-dismiss="modal") Close
+
 block content
   .section-heading: .container= aux.heading.agenda
   .container
+    h3 Day 1 #[small 8/21]
     table#agenda.table.table-bordered.text-center
       tr
         th.text-center= aux.agenda.time
@@ -26,7 +38,26 @@ block content
               span= slot.lang
           else
             td
+              //-+topic-modal(slot.speaker.id, slot.topic, slot.summary)
+              //-span.clickable-topic(onclick="$('#topic-"+slot.speaker.id+"').modal('show')")= slot.topic
               span= slot.topic
               if slot.lang
                 each lc in slot.lang
                   .label.label-danger.pull-right(class="label-"+lc)= lc
+    h3 Day 2 #[small 8/22]
+    table#agenda.table.table-bordered.text-center
+      tr
+        th.text-center(style="width:130px")= aux.agenda.time
+        th.text-center= aux.agenda.topic
+      tr
+        td 09:30 - 17:45
+        td g0v hackathon
+
+    h3 Day 3 #[small 8/23]
+    table#agenda.table.table-bordered.text-center
+      tr
+        th.text-center(style="width:130px")= aux.agenda.time
+        th.text-center= aux.agenda.topic
+      tr
+        td 09:00 - 17:05
+        td g0v hackathon
