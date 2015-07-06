@@ -1,5 +1,7 @@
 extends base.jade
-mixin topic-modal(id, title, summary,speaker)
+mixin topic-modal(id, title, summary, speaker)
+  if !speaker.id
+    - speaker = speaker[0]
   .modal.fade(id="topic-"+id): .modal-dialog: .modal-content
     .modal-header
       button.close(type="button",data-dismiss="modal") &times;
@@ -47,7 +49,6 @@ block content
             td
               +topic-modal(slot.speaker.id, slot.topic, slot.summary, slot.speaker)
               span.clickable-topic(onclick="$('#topic-"+slot.speaker.id+"').modal('show')")= slot.topic
-              //-span= slot.topic
               if slot.lang
                 each lc in slot.lang
                   .label.label-danger.pull-right(class="label-"+lc)= lc
