@@ -38,6 +38,7 @@ base.data = do
       title: zh: "資料新聞實戰營", en: "d|Bootcamp Taipei", 
       subtitle: zh: "2015.8.21 於中央研究院南港院區", en: "Academia Sinica, Taipei, Aug 21 2015"
     sessions: zh: "議程表", en: "Sessions"
+    registration: zh: "報名 (7/7 開放)", en: "Registration opens Jul 7"
     land-keys: zh: "課程三大面向", en: ""
     land-speakers: zh: "講師陣容", en: "Session Speakers"
     land-partners: zh: "合作夥伴", en: "Partners"
@@ -51,7 +52,7 @@ base.data = do
       topic: zh: \主題, en: \Topic
   navbar:
     * link: "http://taipei.dbootcamp.org", zh: "台北，台灣", en: "Taipei, Taiwan"
-    * link: "registration/", zh: "報名", en: "Registration"
+    * link: "http://datasci.tw/signup.html", zh: "報名", en: "Registration"
     * link: "agenda.html", zh: "議程", en: "Agenda"
     * link: "speakers.html", zh: "講者", en: "Speakers"
     * link: "http://datasci.tw", zh: "DataSci.tw", en: "DataSci.tw"
