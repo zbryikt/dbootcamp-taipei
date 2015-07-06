@@ -52,6 +52,7 @@ base.data = do
       time: zh: \時間, en: \Time
       speaker: zh: \講者, en: \Speaker
       topic: zh: \主題, en: \Topic
+      demo: zh: "成果展示(國際會議廳大會全場)", en: "Demo (International Conf Hall)"
   navbar:
     * link: "http://taipei.dbootcamp.org", zh: "台北，台灣", en: "Taipei, Taiwan"
     * link: "http://datasci.tw/signup.html", zh: "報名", en: "Registration"
