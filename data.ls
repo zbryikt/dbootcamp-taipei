@@ -75,7 +75,7 @@ Justin同時負責Innovate Africa基金及Impact Africa初創基金，在非洲�
 
     * id: "david"
       en:
-        name: "David Eads", title: "News Application Developer", inst: "National Public Radio"
+        name: "David Eads", title: "News Application Developer", inst: "NPR"
         desc: """David Eads is a news developer for NPR Visuals in Washington, D.C. His work combines community organizing, data analysis, reporting, design, user experience, teaching, and online storytelling. He is a founder of the Invisible Institute, FreeGeek Chicago, and the Supreme Chi-Town Coding Crew. He has built websites and data visualizations for the Chicago Tribune, Chicago Public Radio, Fermi National Accelerator Laboratory, Qualcomm, and many more. Eads develops Tarbell, a simple website publishing tool named for the great investigative journalist Ida Tarbell."""
       zh:
         name: "David Eads", title: "新聞 Apps 開發者", inst: "美國國家公共電台"
