@@ -34,6 +34,8 @@ base = do
 
 base.data = do
   aux:
+    in-en: zh: "英語演講", en: "in English"
+    in-zh: zh: "國語演講", en: "in Mandarin"
     cover:
       title: zh: "資料新聞實戰營", en: "d|Bootcamp Taipei", 
       subtitle: zh: "2015.8.21 ~ 8.23 於中央研究院南港院區", en: "Academia Sinica, Taipei, Aug 21 ~23 2015"
@@ -164,8 +166,10 @@ infographics.tw 成立於 2014 年，專注於提工中文推廣資料視覺化�
 
   staff:
     * id: "clkao"
-      en: name: "Chia-liang Kao", title: "",  inst: ""
-      zh: name: "高嘉良", title: "",  inst: ""
+      en: name: "Chia-liang Kao", title: "Cofounder",  inst: "g0v.tw"
+      zh: 
+        name: "高嘉良", title: "共同發起人",  inst: "g0v.tw 台灣零時政府"
+        desc: """clkao (高嘉良) - 喜歡寫程式、泡 ♨。參加 1997 年國際資訊奧林匹亞後，進入台大資訊系就讀，即活躍於國內外開放源碼社群，隨後旅居英國倫敦從事軟體開發及顧問工作。2012 年發起 g0v.tw 計畫，現為開放文化基金會董事。"""
     * id: "TBD"
       en: name: "TBD", title: "",  inst: ""
       zh: name: "未定", title: "",  inst: ""

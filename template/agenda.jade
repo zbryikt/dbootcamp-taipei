@@ -16,7 +16,11 @@ mixin topic-modal(id, title, summary,speaker)
 block content
   .section-heading: .container= aux.heading.agenda
   .container
-    h3 Day 1 #[small 8/21]
+    h3 
+      small.pull-right
+        .label.label-danger.label-en en: #[span= aux.inEn]
+        .label.label-primary.label-zh zh: #[span= aux.inZh]
+      | Day 1 #[small 8/21]
     table#agenda.table.table-bordered.text-center
       tr
         th.text-center= aux.agenda.time
