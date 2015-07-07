@@ -80,9 +80,7 @@ Justin同時負責Innovate Africa基金及Impact Africa初創基金，在非洲�
         desc: """David Eads is a news developer for NPR Visuals in Washington, D.C. His work combines community organizing, data analysis, reporting, design, user experience, teaching, and online storytelling. He is a founder of the Invisible Institute, FreeGeek Chicago, and the Supreme Chi-Town Coding Crew. He has built websites and data visualizations for the Chicago Tribune, Chicago Public Radio, Fermi National Accelerator Laboratory, Qualcomm, and many more. Eads develops Tarbell, a simple website publishing tool named for the great investigative journalist Ida Tarbell."""
       zh:
         name: "David Eads", title: "新聞 Apps 開發者", inst: "美國國家公共電台"
-        desc: """他為美國國家公共電台視覺化團隊打造新聞應用程式。直到最近，他也為芝加哥論壇報開發新聞 Apps 。除了演講與教授與技術相關的題目，他還組織了一個資料新聞學工作坊、開發了 Tarbell 發佈平台、並協助發起了 FreeGeek Chicago。 
-        
-        他的作品連接了新聞學、資料與社會議題。他打造並傳授了簡單、直接的方法來幫助新聞記者們更有效率的透過網路敘說故事。他貢獻、也組織了許多關於民主、多元性與永續性的專案。"""
+        desc: """David Eads 是美國國家公共電台 ( 位於 美國華盛頓特區 ) 的新聞軟體開發者，他的作品結合了社群組織、資料分析、報導、設計、使用者體驗、教學以及線上>敘事等眾多要素。同時，他也是下列組織的創辦人，包含了 Invisible Institute 、 FreeGeek Chicago 以及 Supreme Chi-Town Coding Crew 。此外，他也曾為許多組織開發資料視覺化以及網站，包含了芝加哥公共電台、費米國立加速器實驗室、Qualcomm 等等。 Eads 也開發了 Tarbel － 一個容易上手的網站發布工具>，並以偉大的調查記者 Ida Tarbell 命名。"""
 
     * id: "yolanda"
       en:
