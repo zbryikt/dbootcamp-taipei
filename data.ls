@@ -35,7 +35,7 @@ base = do
 base.data = do
   aux:
     in-en: zh: "英語演講", en: "in English"
-    in-zh: zh: "國語演講", en: "in Mandarin"
+    in-zh: zh: "華語演講", en: "in Mandarin"
     cover:
       title: zh: "資料新聞實戰營", en: "d|Bootcamp Taipei", 
       subtitle: zh: "2015.8.21 ~ 8.23 於中央研究院南港院區", en: "Academia Sinica, Taipei, Aug 21 ~23 2015"
