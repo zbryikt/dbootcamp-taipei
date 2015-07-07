@@ -238,12 +238,12 @@ infographics.tw 成立於 2014 年，專注於提工中文推廣資料視覺化�
     * time: "15:00 - 15:30"
       topic: en: "Tea Break", zh: "午茶時間"
 
-    * time: "15:30 - 16:00"
+    * time: "15:30 - 16:30"
       speaker: \#muyueh
       topic: en: "Data Visualization: Introduction and Discuss", zh: "資料視覺化：簡介與討論"
       lang: <[zh]>
 
-    * time: "16:00 - 17:30"
+    * time: "16:30 - 17:30"
       speaker: <[#silva #yolanda #cedric #kirby #secret]>
       lang: <[en zh]>
       topic: en: "Panel: What makes data journalism works in the newsroom?", zh: "座談：一窺編輯室中的資料新聞"
