@@ -41,7 +41,7 @@ base.data = do
       subtitle: zh: "2015.8.21 ~ 8.23 於中央研究院南港院區", en: "Academia Sinica, Taipei, Aug 21 ~23 2015"
       muggle: zh: "專為<b>不懂程式</b>的所有新聞工作者設計", en: "For Journalists Who <b>DON'T</b> Code"
     sessions: zh: "議程表", en: "Sessions"
-    registration: zh: "報名 (7/14 截止)", en: "Registration <br><small> ( closing at Jul 14 ) </small>"
+    registration: zh: "報名 (7/24 截止)", en: "Registration <br><small> ( closing at Jul 24 ) </small>"
     land-keys: zh: "課程三大面向", en: ""
     land-speakers: zh: "講師陣容", en: "Session Speakers"
     land-partners: zh: "合作夥伴", en: "Partners"
