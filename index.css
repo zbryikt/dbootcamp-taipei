@@ -52,7 +52,7 @@ nav.navbar.navbar-default .navbar-nav li.active a {
   transition: all 0.5s ease-in-out;
 }
 #landing .navbar.navbar-default .dropdown .dropdown-menu {
-  background: rgba(0,0,0,0.5);
+  background: rgba(0,0,0,0.8);
   border: 1px solid #333;
 }
 #landing .navbar.navbar-default.zoom .dropdown .dropdown-menu,
@@ -156,6 +156,10 @@ nav.navbar.navbar-default.zoom img,
     padding: 5px;
   }
 }
+.container .row {
+  margin: auto;
+  width: 95%;
+}
 #root {
   margin-top: 120px;
 }
@@ -223,7 +227,7 @@ nav.navbar.navbar-default.zoom img,
   font-size: 1.8em;
 }
 #land-intro .btn {
-  min-width: 70%;
+  min-width: 74%;
   margin-top: 10px;
   border: 2px solid #d94328;
   color: #d94328;
@@ -283,6 +287,11 @@ nav.navbar.navbar-default.zoom img,
   color: #fff;
   vertical-align: top;
 }
+@media (max-width: 480px) {
+  .land-speaker {
+    margin: 25px auto;
+  }
+}
 .land-speaker .avatar {
   width: 190px;
   height: 190px;
@@ -315,6 +324,11 @@ nav.navbar.navbar-default.zoom img,
 }
 #footer span {
   line-height: 37px;
+}
+@media (max-width: 480px) {
+  #footer span {
+    line-height: 12px;
+  }
 }
 #footer a {
   color: #909096;
@@ -366,6 +380,7 @@ nav.navbar.navbar-default.zoom img,
 @media (max-width: 480px) {
   #land-cover-text {
     width: 90%;
+    left: 5%;
   }
 }
 #agenda {

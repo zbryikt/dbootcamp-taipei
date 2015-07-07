@@ -43,7 +43,7 @@ nav.navbar.navbar-default .navbar-nav
   transition(all 0.5s ease-in-out)
 
 #landing .navbar.navbar-default .dropdown .dropdown-menu
-  background: rgba(0,0,0,0.5)
+  background: rgba(0,0,0,0.8)
   border: 1px solid #333
 
 #landing .navbar.navbar-default.zoom .dropdown .dropdown-menu,
@@ -114,6 +114,9 @@ nav.navbar.navbar-default.zoom,
     width: 95%
     margin: 20px auto
     padding: 5px
+  .row
+    margin: auto
+    width: 95%
 
 #root
   margin-top: 120px
@@ -169,7 +172,7 @@ nav.navbar.navbar-default.zoom,
 #land-intro-date
   font-size: 1.8em
 #land-intro .btn
-  min-width: 70%
+  min-width: 74%
   margin-top: 10px
   border: 2px solid #d94328
   color: #d94328
@@ -178,7 +181,6 @@ nav.navbar.navbar-default.zoom,
   &:hover
     color: #fff
     background: #d94328
-
 
 #land-keys
   background: #d64329
@@ -215,6 +217,8 @@ nav.navbar.navbar-default.zoom,
 .land-speaker
   width: 200px
   margin: 25px 50px
+  @media (max-width: 480px)
+    margin: 25px auto
   text-align: center
   display: inline-block
   color: #fff
@@ -247,6 +251,8 @@ nav.navbar.navbar-default.zoom,
     margin: 10px auto
   span
     line-height: 37px
+    @media (max-width: 480px)
+      line-height: 12px
   a
     color: #909096
 
@@ -290,6 +296,7 @@ nav.navbar.navbar-default.zoom,
     font-size: 1.2em
   @media (max-width: 480px)
     width: 90%
+    left: 5%
 
 @import 'styl/agenda'
 @import 'styl/speakers'
