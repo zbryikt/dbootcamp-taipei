@@ -409,6 +409,7 @@ p.agenda-popup {
   border-right: 1px solid #ccc;
 }
 .cell-time {
+  font-size: 13px;
   width: 100px;
 }
 .cell-speaker {
@@ -462,7 +463,8 @@ p.agenda-popup {
     border-right: none;
     text-align: left;
   }
-  .cell-break {
+  .cell-break,
+  .cell-activity {
     width: 284px;
   }
   .cell-topic {
