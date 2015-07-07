@@ -332,15 +332,20 @@ nav.navbar.navbar-default.zoom img,
 }
 @media (max-width: 480px) {
   #land-partners img {
-    max-width: 100%;
+    max-width: 90%;
     margin: 10px auto;
     display: block;
   }
 }
 #base-sponsors img {
   max-height: 80px;
-  max-width: 100%;
+  max-width: 90%;
   margin: 20px 10px;
+}
+@media (max-width: 480px) {
+  #base-sponsors img {
+    margin: 10px auto;
+  }
 }
 .label-en,
 .label-zh {
