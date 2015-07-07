@@ -55,7 +55,7 @@ base.data = do
       demo: zh: "成果展示(國際會議廳大會全場)", en: "Demo (International Conf Hall)"
   navbar:
     * link: "http://taipei.dbootcamp.org", target: "_self",  zh: "台北，台灣", en: "Taipei, Taiwan"
-    * link: "http://datasci.tw/signup.html", target: "_blank",  zh: "報名", en: "Registration"
+    * link: "https://kktix.com/events/dsc2015/registrations/new#/t/35591", target: "_blank",  zh: "報名", en: "Registration"
     * link: "agenda.html", target: "_self",  zh: "議程", en: "Agenda"
     * link: "speakers.html", target: "_self",  zh: "講者", en: "Speakers"
     * link: "http://datasci.tw", target: "_blank",  zh: "DataSci.tw", en: "DataSci.tw"
