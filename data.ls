@@ -39,6 +39,7 @@ base.data = do
     cover:
       title: zh: "資料新聞實戰營", en: "d|Bootcamp Taipei", 
       subtitle: zh: "2015.8.21 ~ 8.23 於中央研究院南港院區", en: "Academia Sinica, Taipei, Aug 21 ~23 2015"
+      muggle: zh: "專為<b>不懂程式</b>的所有新聞工作者設計", en: "For Journalists Who <b>DON'T</b> Code"
     sessions: zh: "議程表", en: "Sessions"
     registration: zh: "報名 (7/14 截止)", en: "Registration <br><small> ( closing at Jul 14 ) </small>"
     land-keys: zh: "課程三大面向", en: ""
