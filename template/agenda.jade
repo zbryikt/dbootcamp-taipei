@@ -18,62 +18,62 @@ mixin topic-modal(id, title, summary, speaker)
 
 block content
   .section-heading: .container= aux.heading.agenda
-  .container
+  .container-agenda
     h3 
       small.pull-right
         .label.label-danger.label-en en: #[span= aux.inEn]
         .label.label-primary.label-zh zh: #[span= aux.inZh]
       | Day 1 #[small 8/21]
-    table#agenda.table.table-bordered.text-center
-      tr
-        th.text-center= aux.agenda.time
-        th.text-center= aux.agenda.speaker
-        th.text-center= aux.agenda.topic
+    .flextable
+      .slot.head
+        .cell-time= aux.agenda.time
+        .cell-speaker= aux.agenda.speaker
+        .cell-topic= aux.agenda.topic
       each slot in agenda
         if !slot.speaker
           - trclass = "break"
         else
           - trclass = ""
-        tr(class=trclass)
-          td= slot.time
+        .slot(class=trclass)
+          .cell-time= slot.time
           if slot.speaker && slot.speaker.length
-            td 
+            .cell-speaker 
               each speaker in slot.speaker
                 +topic-modal("speaker-"+speaker.id, "", "", speaker)
                 span.clickable-link(onclick="$('#speaker-"+speaker.id+"').modal('show')")= speaker.name
           else if slot.speaker
-            td
+            .cell-speaker
               +topic-modal("speaker-"+slot.speaker.id, "", "", slot.speaker)
               span.clickable-link(onclick="$('#speaker-"+slot.speaker.id+"').modal('show')")= slot.speaker.name
           if !slot.speaker
-            td.text-center(colspan="2")
+            .cell-break.text-center(colspan="2")
               span= slot.topic
-              span= slot.lang
           else
-            td
-              //-+topic-modal("topic-"+slot.speaker.id, slot.topic, slot.summary, slot.speaker)
-              //-span.clickable-topic(onclick="$('#topic-"+slot.speaker.id+"').modal('show')")= slot.topic
+            .cell-topic
               span= slot.topic
               if slot.lang
                 each lc in slot.lang
                   .label.label-danger.pull-right(class="label-"+lc)= lc
+
     h3 Day 2 #[small 8/22]
-    table#agenda.table.table-bordered.text-center
-      tr
-        th.text-center(style="width:130px")= aux.agenda.time
-        th.text-center= aux.agenda.topic
-      tr
-        td 09:30 - 17:45
-        td g0v hackathon
+    .flextable
+      .slot.head.activity
+        .cell-time= aux.agenda.time
+        .cell-activity= aux.agenda.topic
+      .slot.activity
+        .cell-time 09:30 - 17:45
+        .cell-activity g0v hackathon
 
     h3 Day 3 #[small 8/23]
-    table#agenda.table.table-bordered.text-center
-      tr
-        th.text-center(style="width:130px")= aux.agenda.time
-        th.text-center= aux.agenda.topic
-      tr
-        td 10:30 - 15:35
-        td g0v hackathon
-      tr
-        td 16:05 - 17:05
-        td= aux.agenda.demo
+    .flextable
+      .slot.head.activity
+        .cell-time= aux.agenda.time
+        .cell-activity= aux.agenda.topic
+      .slot.activity
+        .cell-time 10:30 - 15:35
+        .cell-activity g0v hackathon
+      .slot.activity
+        .cell-time 16:05 - 17:05
+        .cell-activity= aux.agenda.demo
+    br
+    br

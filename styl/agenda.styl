@@ -1,10 +1,12 @@
+border = #ccc
+
 #agenda
   width: 100%
   box-shadow: 0 1px 2px rgba(0,0,0,0.1)
   tr.break
     background: #f9f9f9
   td span
-    margin-right: 10px
+    margin-right: 6px
 .clickable-link
   cursor: pointer
   color: #0873bb
@@ -26,3 +28,72 @@ h2.agenda-popup
 p.agenda-popup
   white-space: pre-line
   text-align: left
+
+.flextable
+  box-shadow: 0 1px 2px rgba(0,0,0,0.1)
+  border: 1px solid border
+  display: table
+  .slot.break
+    background: #f9f9f9
+  .slot span
+    margin-right: 6px
+
+.cell-time, .cell-speaker, .cell-topic, .cell-break, .cell-lang, .cell-activity
+  display: table-cell
+  padding: 5px
+  text-align: center
+  vertical-align: middle
+.cell-time, .cell-speaker
+  border-right: 1px solid border
+
+.cell-time
+  width: 100px
+.cell-speaker
+  width: 284px
+.cell-topic
+  width: 590px
+.cell-break, .cell-activity
+  width: 875px
+.cell-break
+  color: #888
+
+.slot
+  border-bottom: 1px solid border
+  &:last-child
+    border-bottom: none
+.container-agenda
+  margin: auto
+
+.flextable, .container-agenda
+  width: 980px
+
+@media (max-width: 1024px)
+  .flextable, .container-agenda
+    width: 700px
+  .cell-topic
+    width: 314px
+  .cell-break, .cell-activity
+    width: 598px
+@media (max-width: 768px)
+  .flextable
+    width: 100%
+    border-color: darken(border, 50%)
+  .container-agenda
+    width: 90%
+  .cell-speaker
+    border-right: none
+    text-align: left
+  .cell-break
+    width: 284px
+  .cell-topic
+    width: 100%
+    display: block
+    border-top: 1px solid border
+    border-bottom: 1px solid darken(border, 50%)
+  .slot
+    border-bottom: none
+  .slot.break, .slot.activity
+    border-bottom: 1px solid darken(border, 50%)
+  .slot.head
+    background: #f9f9f9
+    font-weight: bold

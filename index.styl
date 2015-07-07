@@ -40,14 +40,21 @@ nav.navbar.navbar-default .navbar-nav
   margin-bottom: 0
 
 .navbar.navbar-default .dropdown .dropdown-menu
+  transition(all 0.5s ease-in-out)
+
+#landing .navbar.navbar-default .dropdown .dropdown-menu
   background: rgba(0,0,0,0.2)
   border: 1px solid #333
-  transition(all 0.5s ease-in-out)
 
 .navbar.navbar-default.zoom .dropdown .dropdown-menu
   background: #fff
   border: 1px solid #ccc
   box-shadow: 0 2px 3px rgba(0,0,0,0.2)
+
+@media (max-width: 992px)
+  .navbar-nav .open ul.dropdown-menu
+    position: absolute!important
+    left: -80px!important
 
 nav.navbar.navbar-default 
   transition(all 0.3s ease-in-out)
