@@ -52,9 +52,11 @@ nav.navbar.navbar-default .navbar-nav li.active a {
   transition: all 0.5s ease-in-out;
 }
 #landing .navbar.navbar-default .dropdown .dropdown-menu {
-  background: rgba(0,0,0,0.2);
+  background: rgba(0,0,0,0.5);
   border: 1px solid #333;
 }
+#landing .navbar.navbar-default.zoom .dropdown .dropdown-menu,
+.navbar.navbar-default .dropdown .dropdown-menu,
 .navbar.navbar-default.zoom .dropdown .dropdown-menu {
   background: #fff;
   border: 1px solid #ccc;
@@ -63,7 +65,7 @@ nav.navbar.navbar-default .navbar-nav li.active a {
 @media (max-width: 992px) {
   .navbar-nav .open ul.dropdown-menu {
     position: absolute !important;
-    left: -80px !important;
+    left: -90px !important;
   }
 }
 nav.navbar.navbar-default {
