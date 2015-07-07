@@ -9,7 +9,7 @@ nav#nav-top.navbar.navbar-default.navbar-fixed-top
     .navbar.pull-right
       ul.nav.navbar-nav.hidden-xs.hidden-sm
         each item in navbar
-          li: a(href=item.link)= item.name
+          li: a(href=item.link,target=item.target)= item.name
         if locale == 'en'
           li: a(href="/zh/") 中文
         else
@@ -18,7 +18,7 @@ nav#nav-top.navbar.navbar-default.navbar-fixed-top
         a#nav-collapse(data-toggle="dropdown",href="#") Menu #[span.caret]
         ul.dropdown-menu
           each item in navbar
-            li: a(href=item.link)= item.name
+            li: a(href=item.link,target=item.target)= item.name
           if locale == 'en'
             li: a(href="/zh/") 中文
           else
