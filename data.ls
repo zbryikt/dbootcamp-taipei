@@ -40,7 +40,7 @@ base.data = do
       title: zh: "資料新聞實戰營", en: "d|Bootcamp Taipei", 
       subtitle: zh: "2015.8.21 ~ 8.23 於中央研究院南港院區", en: "Academia Sinica, Taipei, Aug 21 ~23 2015"
     sessions: zh: "議程表", en: "Sessions"
-    registration: zh: "報名 (7/14 截止)", en: "closing at Jul 14"
+    registration: zh: "報名 (7/14 截止)", en: "Registration <br><small> ( closing at Jul 14 ) </small>"
     land-keys: zh: "課程三大面向", en: ""
     land-speakers: zh: "講師陣容", en: "Session Speakers"
     land-partners: zh: "合作夥伴", en: "Partners"
