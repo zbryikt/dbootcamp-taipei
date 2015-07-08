@@ -20,7 +20,8 @@ block content
          br
          a#land-intro-btn.btn.btn-default.btn-lg(href="https://kktix.com/events/dsc2015/registrations/new#/t/35591")!= aux.registration
          if locale == 'zh'
-           a.btn.btn-default.btn-lg(href="https://docs.google.com/forms/d/18j4dn44jh0QGMr7Fiw_oynap8ZkrGTPG2hZwaPMNks8/viewform",target="_blank") 助教募集中
+           //-a.btn.btn-default.btn-lg(href="https://docs.google.com/forms/d/18j4dn44jh0QGMr7Fiw_oynap8ZkrGTPG2hZwaPMNks8/viewform",target="_blank") 助教募集
+           .btn.btn-default.btn-lg.disabled 助教募集 #[br] #[small 已額滿]
          br
          br
          a(href="https://twitter.com/search/realtime/%23dBootcamp"): img(src="/img/icon/twitter_64px.png")
