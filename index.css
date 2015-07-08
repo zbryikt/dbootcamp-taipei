@@ -130,6 +130,17 @@ nav.navbar.navbar-default.zoom img,
 #landing nav.navbar.navbar-default.zoom img {
   height: 20px;
 }
+@media (max-width: 480px) {
+  nav.navbar.navbar-default .navbar-brand a,
+  nav.navbar.navbar-default ul.navbar-nav > li > a {
+    height: 20px;
+    line-height: 20px;
+    padding: 8px 20px;
+  }
+  nav.navbar.navbar-default img {
+    height: 20px;
+  }
+}
 .frame {
   background: #fff;
   border-radius: 5px;
@@ -173,7 +184,7 @@ nav.navbar.navbar-default.zoom img,
 #land-cover-text {
   position: absolute;
   top: 40%;
-  margin-top: -80px;
+  margin-top: -120px;
   left: 0;
   width: 100%;
   text-align: center;
@@ -381,6 +392,14 @@ nav.navbar.navbar-default.zoom img,
   #land-cover-text {
     width: 90%;
     left: 5%;
+  }
+}
+@media (max-height: 520px) {
+  #land-cover {
+    height: 100%;
+  }
+  #land-cover-text {
+    top: 50%;
   }
 }
 #agenda {
