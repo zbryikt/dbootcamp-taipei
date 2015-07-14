@@ -18,6 +18,7 @@ html(lang="en")
     script(type="text/javascript",src="/index.js")
     include template/jsonld.jade
   body
+    include template/redirect.jade
     script(type="text/javascript").
       var lang = navigator.userLanguage || navigator.language || navigator.browserLanguage || navigator.systemLanguage;
       if(/zh|tw/i.exec(lang)) { 

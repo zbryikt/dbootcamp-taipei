@@ -23,7 +23,9 @@
     "priceCurrency": "TWD",
     "url": "http://datasci.tw/signup.html"
   }
-}</script></head><body><script type="text/javascript">var lang = navigator.userLanguage || navigator.language || navigator.browserLanguage || navigator.systemLanguage;
+}</script></head><body><script>if(!/localhost|dbootcamp.taipei/.exec(window.location.hostname)) {
+  window.location.href = "http://dbootcamp.taipei" + window.location.pathname + window.location.search + window.location.hash;
+}</script><script type="text/javascript">var lang = navigator.userLanguage || navigator.language || navigator.browserLanguage || navigator.systemLanguage;
 if(/zh|tw/i.exec(lang)) { 
   window.location.replace("/zh/");
 } else {

@@ -1,0 +1,5 @@
+script.
+  if(!/localhost|dbootcamp.taipei/.exec(window.location.hostname)) {
+    window.location.href = "http://dbootcamp.taipei" + window.location.pathname + window.location.search + window.location.hash;
+  }
+
